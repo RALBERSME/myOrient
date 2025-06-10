@@ -1,0 +1,98 @@
+.Book {
+  background-color: black;
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url("../../assets/moon.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.book-wrapper {
+  margin: 2rem;
+}
+.book-link {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+.book-link span,
+.book-link i {
+  position: relative;
+}
+.book-link i {
+  margin-left: 0.5rem;
+}
+.book-link .color {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: orangered;
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  left: -0.65rem;
+  animation: runningDot 5s ease-in-out infinite;
+}
+
+@keyframes runningDot {
+  0% {
+    transform: translatey(-50%) translatex(0);
+    background-color: orangered;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    left: -0.65rem;
+  }
+  40% {
+    transform: translatey(-50%) translatex(720px);
+    background-color: #c5d723;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    left: -0.65rem;
+  }
+  60% {
+    transform: translatey(-50%) translatex(720px);
+    background-color: #7e8c04;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2%;
+    left: -0.65rem;
+  }
+  80% {
+    transform: translatey(-50%) translatex(720px);
+    background-color: #aeae05;
+    width: calc(4rem + 720px);
+    height: 4rem;
+    border-radius: 2%;
+    left: -720px;
+  }
+  100% {
+    transform: translatey(-50%) translatex(0);
+    background-color: orangered;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    left: -0.65rem;
+  }
+}
+
+.book-r {
+}
+.book-img {
+  transform: translateY(-50rem) translateX(-10rem);
+  animation: throwConfetti 8s ease-in forwards;
+}
+
+@keyframes throwConfetti {
+  from {
+    transform: translateY(-50rem) translateX(-10rem);
+  }
+  to {
+    transform: translateY(60rem) translateX(20rem);
+  }
+}

@@ -1,0 +1,102 @@
+.Adventure {
+    background-color: dodgerblue;
+    color: white; 
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;    
+}
+.adventure-German {
+    margin: 5%; 
+    width: 100%; 
+}
+.adventure-English {
+    width: 100%; 
+    color: rgb(245, 235, 216);  
+}
+.zig-zag {
+    --s: 30px;  
+    --a: 90deg; 
+    
+    mask: 
+      repeating-conic-gradient(from calc(180deg - var(--a)/2) at 50% var(--s),#0000 0,#000 1deg calc(var(--a) - 1deg) ,#0000 var(--a) 180deg) 
+      50% calc(-1*var(--s))/calc(2*var(--s)*tan(var(--a)/2)) 100%;
+    
+    height: 250px;
+    font: bold 40px system-ui,sans-serif;
+    color: #fff;
+    display: grid;
+    place-content: center;
+    text-align: center;
+  }
+  .zig-zag-color1 {
+    background: linear-gradient(60deg,#2942c0,#340c76);
+  }
+  .zig-zag-color2{
+    background: linear-gradient(60deg,#c6f49a,#216819);
+  }
+  .zig-zag-color3{
+    background: linear-gradient(60deg,#f3f49a,#676819);
+    height: 180px;
+    font-size: 1.5rem; 
+    color: black; 
+  }
+  .zig-zag-color5{
+    background: linear-gradient(60deg,#f3f49a,#676819);
+    height: 120px;
+    font-size: 1.5rem; 
+    color: black; 
+  }
+  .zig-zag-color3 a, .zig-zag-color5 a {
+    color: rgb(144, 31, 31); 
+  }
+  .zig-zag-color3 a:hover,  .zig-zag-color5 a:hover {
+    color: #2942c0; 
+  }
+  .zig-zag-color4{
+    background: linear-gradient(60deg,#e2c35e,#534c07);
+    height: 100px;
+    font-size: 2rem; 
+    color: black; 
+  }
+
+ .adventure-text {
+   padding: .5rem 6rem; 
+  }
+.adventure-top, .adventure-English {
+    text-decoration: none;
+    padding-top: .6rem;
+}
+.adventure-top:hover, .adventure-English:hover {
+    color: wheat; 
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+ 
+    .zig-zag {
+        --s: 10px;                 
+        height: 200px;       
+      }
+      .zig-zag-color1 {
+       font-size: 2rem; 
+      }
+      .zig-zag-color3{
+        height: 180px;
+        font-size: 1rem; 
+    }
+   
+      .zig-zag-color4{
+        height: 80px;
+        font-size: 1.2rem; 
+       }
+       .zig-zag-color5{
+        height: 80px;
+        font-size: 1.2rem; 
+      }
+     .adventure-text {
+       padding: .25rem 3rem; 
+       font-size: 1.25em;
+      }
+ 
+}

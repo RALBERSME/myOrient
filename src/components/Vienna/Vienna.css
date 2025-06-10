@@ -1,0 +1,102 @@
+.Vienna {
+  background-image: url("../../assets/wien2.jpg");
+  background-color: rgb(204, 236, 247);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: cover;
+  height: 100vh;
+}
+
+.vienna-text {
+  padding-left: 50%;
+  padding-top: 5%;
+  padding-right: 5%;
+  height: 90%;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: whitesmoke;
+}
+.vienna-img {
+  border-radius: 50%;
+  box-shadow: 0 0 0 5px hsl(341, 84%, 88%), 0 0 0 7px hsl(216, 26%, 66%),
+    0 0 0 12px hsl(215, 83%, 75%), 0 0 0 12.5px white,
+    0 0 0 13px hsl(209, 84%, 75%), 0 0 0 14px hsl(0, 81%, 84%);
+  margin-bottom: 25px;
+}
+
+.vienna-Arrows {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+.vienna-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+  gap: 45px;
+}
+
+.vienna-button a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-family: "Playfair Display", serif;
+  color: hsl(341, 84%, 88%);
+  letter-spacing: 3px;
+  padding: 25px 50px;
+  position: relative;
+  border-radius: 5px;
+  border: 3px solid hsl(341, 84%, 88%);
+  transition: all 0.2s;
+  overflow: hidden;
+  text-align: center;
+}
+
+.vienna-button a:hover {
+  background-color: hsl(341, 84%, 88%);
+  color: rgb(19, 92, 121);
+  font-weight: 500;
+  border: 3px solid rgb(86, 202, 247);
+}
+
+@media screen and (max-width: 768px) {
+  .Vienna {
+    background: linear-gradient(
+      to right,
+      rgb(86, 202, 247),
+      hsl(341, 84%, 88%)
+    );
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: cover;
+    height: 117vh;
+  }
+
+  .vienna-text {
+    padding-left: 5%;
+    padding-top: 5%;
+    padding-right: 3.5%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  .vienna-img {
+    margin-top: 10px;
+  }
+  .vienna-button {
+    flex-direction: column;
+  }
+  .vienna-button a {
+    background-color: skyblue;
+    color: black;
+    font-weight: 500;
+    padding: 25px 50px;
+  }
+
+  .vienna-button a:hover {
+    font-weight: 700;
+  }
+}

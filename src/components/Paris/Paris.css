@@ -1,0 +1,145 @@
+.Paris {
+  background: black;
+  color: var(--orange);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.paris-container {
+  display: grid;
+  grid-template-columns: 2fr 3fr 5fr 1fr;
+  margin-top: 0.5%;
+}
+.paris-img-wrapper {
+  height: 100%;
+  background-color: black;
+  width: 15%;
+  padding: 5px;
+  text-align: center;
+}
+.paris-img-wrapper img {
+  padding-top: 20%;
+}
+
+.paris-V {
+  list-style: none;
+  width: 600%;
+  padding: 0 2%;
+  margin-top: -25%;
+}
+
+.paris-V h4 {
+  color: rgba(248, 217, 159, 0.8);
+}
+.paris-V li:nth-last-of-type(even) {
+  color: rgba(255, 255, 255, 0.8);
+  padding-bottom: 5px;
+}
+.paris-V li:nth-last-of-type(odd) {
+  color: rgba(248, 217, 159, 0.8);
+  padding-bottom: 5px;
+}
+.paris-img-wrapper-last {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-around;
+}
+.paris-small {
+  height: 200px;
+  width: 200px;
+}
+.paris-h {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2%;
+  width: 20vw;
+}
+.paris-c {
+  padding: 2% 1% 0% 0%;
+}
+#imgParis2 {
+  height: 32%;
+}
+#imgParis2:hover {
+  height: 80%;
+}
+.buttons-Paris {
+  display: flex;
+  gap: 25px;
+}
+.btn-Paris {
+  background-color: var(--orange);
+  color: white;
+  margin-top: 15px;
+  padding: 0.5rem;
+  font-weight: bold;
+  border: 4px solid transparent;
+  transition: 300ms all;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-Paris:hover {
+  cursor: pointer;
+  background-color: whitesmoke;
+  border-radius: 4px solid var(--orange);
+  color: var(--orange);
+  transform: translateX(1px) translateY(1px);
+}
+
+@media screen and (max-width: 768px) {
+  .Paris {
+    overflow-y: scroll;
+  }
+  .paris-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+  }
+  .paris-img-wrapper {
+    height: 100%;
+    background-color: black;
+    width: 15%;
+    padding: 5px;
+    text-align: center;
+  }
+  .paris-img-wrapper img {
+    padding: 20% 25%;
+  }
+
+  .paris-img-wrapper-last {
+    padding-left: 7.5%;
+    margin-top: -50%;
+  }
+  .paris-small {
+    height: 300px;
+    width: 350px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+  }
+  .paris-V {
+    list-style: none;
+    width: 622%;
+    padding: 7.5%;
+    border-style: inset;
+    margin-top: 0%;
+  }
+  .paris-h {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 7.5%;
+    width: 80vw;
+    text-align: center;
+  }
+  .paris-c {
+    padding: 7.5%;
+  }
+  #imgParis2 {
+    height: 25%;
+  }
+  #imgParis2:hover {
+    border-radius: 50%;
+    transform: translateX(-35%);
+  }
+}

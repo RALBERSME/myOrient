@@ -1,0 +1,148 @@
+.Belgrad {
+  background-color: black;
+  color: whitesmoke;
+  overflow-y: scroll;
+}
+.belgrad-container {
+  margin: 2.5% 5%;
+}
+.belgrad-letters {
+  margin: 0;
+  padding: 0;
+  color: transparent;
+  font-size: 11em;
+}
+.belgrad-letters span {
+  display: table-cell;
+  animation: animate 1s linear infinite;
+}
+.belgrad-letters span:nth-child(9n + 1) {
+  animation-delay: 0.5s;
+}
+.belgrad-letters span:nth-child(9n + 2) {
+  animation-delay: 1.25s;
+}
+.belgrad-letters span:nth-child(9n + 3) {
+  animation-delay: 2.35s;
+}
+.belgrad-letters span:nth-child(9n + 4) {
+  animation-delay: 2.75s;
+}
+.belgrad-letters span:nth-child(9n + 5) {
+  animation-delay: 1s;
+}
+.belgrad-letters span:nth-child(9n + 6) {
+  animation-delay: 1.35s;
+}
+.belgrad-letters span:nth-child(9n + 7) {
+  animation-delay: 1.5s;
+}
+h1 span:nth-child(9n + 8) {
+  animation-delay: 0.65s;
+}
+.belgrad-letters span:nth-child(9n + 9) {
+  animation-delay: 3.85s;
+}
+@keyframes animate {
+  0%,
+  100% {
+    color: #fff;
+    filter: blur(2px);
+    text-shadow: 0 0 10px gold, 0 0 20px gold, 0 0 40px gold, 0 0 80px gold,
+      0 0 120px gold, 0 0 200px gold;
+  }
+}
+
+.belgrad-images {
+  display: flex;
+  height: 150px;
+  width: 100%;
+  justify-content: space-between;
+}
+.belgrad-images img {
+  border: 0.5px solid gold;
+  border-radius: 5%;
+  box-shadow: 0px 0px 20px 0px gold;
+}
+.belgrad-images img:hover {
+  transform: scale(1.5);
+}
+.belgrad-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+  gap: 55px;
+}
+
+.belgrad-button a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-family: "Playfair Display", serif;
+  color: gold;
+  letter-spacing: 3px;
+  padding: 25px 50px;
+  position: relative;
+  border-radius: 5px;
+  border: 3px solid gold;
+  transition: all 0.2s;
+  overflow: hidden;
+  text-align: center;
+}
+
+.belgrad-button a:hover {
+  background-color: gold;
+  color: rgb(19, 92, 121);
+  font-weight: 500;
+  border: 3px solid rgb(86, 202, 247);
+}
+
+.belgrad-english {
+  color: wheat;
+  font-style: italic;
+}
+
+@media screen and (max-width: 768px) {
+  .Belgrad {
+    overflow-y: scroll;
+  }
+  .belgrad-container {
+    margin: 2.5% 5%;
+  }
+  .belgrad-letters {
+    font-size: 3em;
+  }
+
+  @keyframes animate {
+    0%,
+    100% {
+      color: #fff;
+      filter: blur(1px);
+      text-shadow: 0 0 10px gold, 0 0 20px gold, 0 0 40px gold, 0 0 80px gold,
+        0 0 120px gold, 0 0 200px gold;
+    }
+  }
+
+  .belgrad-images {
+    height: 100px;
+    width: 150px;
+    padding-left: 120px;
+    overflow: hidden;
+  }
+  .belgrad-images img {
+    border: 0.5px solid gold;
+    border-radius: 5%;
+    box-shadow: 0px 0px 20px 0px gold;
+  }
+  .belgrad-images img:hover {
+    transform: scale(1.2);
+    width: 200px;
+    box-shadow: none;
+    border: none;
+  }
+  .belgrad-button {
+    flex-direction: column;
+  }
+}
