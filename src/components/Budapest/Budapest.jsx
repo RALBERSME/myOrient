@@ -127,7 +127,7 @@ const Budapest = () => {
         <a
           href="#"
           onClick={() => {
-            navigate("/myOrient/zagreb");
+            navigate("/zagreb");
           }}
         >
           Continue <br></br>to Zagreb{" "}
@@ -135,7 +135,7 @@ const Budapest = () => {
         <a
           href="#"
           onClick={() => {
-            navigate("/myOrient");
+            navigate("/");
           }}
         >
           Back <br></br>to Main Page{" "}

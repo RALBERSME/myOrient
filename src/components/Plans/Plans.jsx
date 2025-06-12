@@ -49,12 +49,12 @@ const Plans = () => {
               </div>
               <button
                 onClick={() => {
-                  navigate("/myOrient/book");
+                  navigate("/book");
                 }}
                 className="btn"
                 id="bookBtn"
               >
-                Book now
+                Click For Details
               </button>
             </div>
           );

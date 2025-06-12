@@ -112,7 +112,7 @@ h1 span:nth-child(9n + 8) {
     margin: 2.5% 5%;
   }
   .belgrad-letters {
-    font-size: 3em;
+    font-size: 2em;
   }
 
   @keyframes animate {

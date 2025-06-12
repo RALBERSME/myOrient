@@ -31,8 +31,8 @@ const Sofia = () => {
             </h2>
             <br></br>
             <h2>
-              Hover über die Bilder, um mehr zu erfahren. - Hover over the pics
-              for more information.
+              Klicke die Bilder, um mehr zu erfahren. - Click on the pics for
+              more information.
             </h2>
           </div>
 
@@ -45,10 +45,10 @@ const Sofia = () => {
                 <h2>Buildings</h2>
                 <p>
                   The Alexander Nevsky Monument, a magnificent Orthodox
-                  cathedral, is the city's landmark and impresses with its
-                  golden dome. The Rotunda of St. George is one of the oldest
-                  buildings in Sofia. The National Museum and the Serdica
-                  Fortress are fascinating sights to visit.
+                  cathedral, impresses with its golden dome. The Rotunda of St.
+                  George is one of the oldest buildings in Sofia. The National
+                  Museum and the Serdica Fortress are fascinating sights to
+                  visit.
                 </p>
               </div>
             </div>
@@ -111,11 +111,10 @@ const Sofia = () => {
               <div>
                 <h2>Politics</h2>
                 <p>
-                  Politically, Sofia experienced significant changes after the
-                  First World War. The collapse of the Ottoman Empire and the
-                  upheavals in Europe had a profound impact on the region.
-                  Bulgaria is now an independent state that is embarking on a
-                  journey to redefine and consolidate its national identity.
+                  Sofia experienced significant changes after the First World
+                  War. The collapse of the Ottoman Empire and the upheavals in
+                  Europe had a profound impact on the region. Bulgaria is now an
+                  independent state which redefines its national identity.
                 </p>
               </div>
             </div>
@@ -142,7 +141,7 @@ const Sofia = () => {
           <a
             href="#"
             onClick={() => {
-              navigate("/myOrient/constantinople");
+              navigate("/constantinople");
             }}
           >
             Continue <br></br>to Constantinople{" "}
@@ -150,7 +149,7 @@ const Sofia = () => {
           <a
             href="#"
             onClick={() => {
-              navigate("/myOrient");
+              navigate("/");
             }}
           >
             Back <br></br>to Main Page{" "}

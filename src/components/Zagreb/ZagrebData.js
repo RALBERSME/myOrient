@@ -12,8 +12,7 @@ export const zagrebData = [
   },
   {
     image: "https://www.youtube.com/watch?v=hc6LBdnXMW0",
-    text: ` Die Sehenswürdigkeiten in Zagreb sind vielfältig und faszinierend. Das
-          prachtvolle Ban-Jelačić-Platz ist das pulsierende Zentrum der Stadt,
+    text: ` Der prachtvolle Ban-Jelačić-Platz ist das pulsierende Zentrum der Stadt,
           umgeben von historischen Gebäuden und lebhaften Märkten. Die
           Kathedrale von Zagreb, mit ihren hohen Türmen und gotischer Schönheit,
           ist ein Wahrzeichen, das man nicht verpassen darf. Das alte
@@ -21,8 +20,7 @@ export const zagrebData = [
           Häusern und dem berühmten Uhrturm, der einen herrlichen Blick über die
           Stadt bietet.
      `,
-    englisch: `The sights in Zagreb are diverse and fascinating. The
-magnificent Ban Jelačić Square is the vibrant center of the city,
+    englisch: `The magnificent Ban Jelačić Square is the vibrant center of the city,
 surrounded by historic buildings and lively markets. The
 Zagreb Cathedral, with its tall spires and Gothic beauty,
 is a landmark not to be missed. The old

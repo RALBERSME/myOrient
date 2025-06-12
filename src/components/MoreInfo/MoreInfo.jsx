@@ -371,7 +371,7 @@ const MoreInfo = () => {
             id="mInfo-button"
             href="#"
             onClick={() => {
-              navigate("/myOrient");
+              navigate("/");
             }}
           >
             <span> Back to Main Page</span>

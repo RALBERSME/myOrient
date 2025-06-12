@@ -132,7 +132,7 @@ const Belgrad = () => {
           <a
             href="#"
             onClick={() => {
-              navigate("/myOrient/sofia");
+              navigate("/sofia");
             }}
           >
             Continue <br></br>to Sofia{" "}
@@ -140,7 +140,7 @@ const Belgrad = () => {
           <a
             href="#"
             onClick={() => {
-              navigate("/myOrient");
+              navigate("/");
             }}
           >
             Back <br></br>to Main Page{" "}

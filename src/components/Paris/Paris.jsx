@@ -76,7 +76,6 @@ const Paris = () => {
         <div className="paris-c">
           <img id="imgParis2" src={Paris2} alt="Paris" />
           <div>
-            <h3>Parisian culture and sights:</h3>
             <h3>
               French culture, art, and literature are experiencing a golden age,
               making Paris the center of the world. In 1920, Paris was a center
@@ -85,8 +84,7 @@ const Paris = () => {
               the world. A notable event was the creation of the "Tomb of the
               Unknown Soldier" under the Arc de Triomphe on November 11, which
               served as a national memorial to the fallen of the First World
-              War. Jazz music also flourished and found a wide following in
-              Parisian clubs and bars.
+              War.
               <br></br>
               Paris attracted many American and European writers and artists,
               who established themselves in Paris as part of the "Lost
@@ -112,13 +110,13 @@ const Paris = () => {
               and the tourist industry.
               <br></br>
               <br></br>
-              Hover over the Arc de Triomphe to see more details.
+              On big screens hover over the Arc de Triomphe to see more details.
               <br></br>
               <div className="buttons-Paris">
                 <button
                   className="btn-Paris"
                   onClick={() => {
-                    navigate("/myOrient/vienna");
+                    navigate("/vienna");
                   }}
                 >
                   Continue to Vienna{" "}
@@ -126,7 +124,7 @@ const Paris = () => {
                 <button
                   className="btn-Paris"
                   onClick={() => {
-                    navigate("/myOrient");
+                    navigate("/");
                   }}
                 >
                   Back to Main Page{" "}

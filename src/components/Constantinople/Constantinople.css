@@ -1,7 +1,7 @@
 .Constantinople {
   background-color: black;
   color: white;
-  height: 150vh;
+  height: 160vh;
   position: relative;
   background: url("../../assets/Konstantinopel2.jpg");
   background-repeat: no-repeat;
@@ -232,7 +232,7 @@
 
   .constantinople-right {
     width: 50%;
-    margin-left: 50%;
+    margin-left: 35%;
   }
 
   #steam6 {

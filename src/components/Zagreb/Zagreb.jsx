@@ -14,7 +14,7 @@ const Zagreb = () => {
                 className="zagreb-image"
                 url={data.image}
                 width="20rem"
-                height="10rem"
+                height="10.5rem"
                 volume=".2"
               />
 
@@ -28,7 +28,7 @@ const Zagreb = () => {
           <a
             href="#"
             onClick={() => {
-              navigate("/myOrient/belgrad");
+              navigate("/belgrad");
             }}
           >
             Continue <br></br>to Belgrad{" "}
@@ -36,7 +36,7 @@ const Zagreb = () => {
           <a
             href="#"
             onClick={() => {
-              navigate("/myOrient");
+              navigate("/");
             }}
           >
             Back <br></br>to Main Page{" "}

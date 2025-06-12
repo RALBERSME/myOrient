@@ -14,7 +14,7 @@ const Adventure = () => {
           <div
             class="zig-zag zig-zag-color5"
             onClick={() => {
-              navigate("/myOrient");
+              navigate("/");
             }}
           >
             <a href="#">
@@ -35,12 +35,16 @@ const Adventure = () => {
           <br></br>
           <div class="zig-zag zig-zag-color1">Auftakt in Paris</div>
           <h2 className="adventure-text">
-            Es war ein warmer, goldener Spätnachmittag im Sommer 1920, als das
-            Ehepaar Moreau in Paris den legendären Orient-Express bestieg. Alice
-            Moreau drückte ihrem Mann einen fetten Kuss auf die Wange. „Endlich
-            kann unser gemeinsames Abenteuer losgehen“, hauchte sie ihm sanft
-            ins Ohr. Louis Moreau zwinkerte ihr amüsiert zu, wandte sich dann
-            aber dem Steward zu, der an sie herangetreten war.
+            Keine Sorge, dies ist nicht Agatha Christies{" "}
+            <em>"Mord im Orient-Express"</em>, der erst 1934 geschrieben wurde!
+            Dieses Reiseerlebnis spielt im Jahre 1920 und stammt allein aus
+            meiner Feder.<br></br>
+            <br></br> Es war ein warmer, goldener Spätnachmittag im Sommer 1920,
+            als das Ehepaar Moreau in Paris den legendären Orient-Express
+            bestieg. Alice Moreau drückte ihrem Mann einen fetten Kuss auf die
+            Wange. „Endlich kann unser gemeinsames Abenteuer losgehen“, hauchte
+            sie ihm sanft ins Ohr. Louis Moreau zwinkerte ihr amüsiert zu,
+            wandte sich dann aber dem Steward zu, der an sie herangetreten war.
             <br></br> <br></br>
             „Willkommen an Bord! Madame Moreau, Monsieur Moreau, treten Sie ein,
             in die Welt des Luxus!“, begrüßte dieser sie. „Darf ich Sie zu Ihrem
@@ -48,12 +52,12 @@ const Adventure = () => {
             Himmelbett, gemütliche Sitzgruppe, Obst und Getränke frei, soviel
             Sie möchten. Hier geht es lang…oh, mein Herr, darf ich Ihnen Ihr
             Gepäck abnehmen? Unser Schaffner kümmert sich um Ihre Koffer, aber
-            geben Sie mir doch einfach den riesigen Käfig aus Ihrer Hand. Den
+            geben Sie mir doch einfach den riesigen Käfig in Ihrer Hand. Den
             kann ich doch tragen.“
             <br></br> <br></br>
-            Daraufhin streckte er seine Hand in Richtung Louis Moreau, der kurz
-            die Regung verlor und barsch erwiderte. „Lassen Sie das, der Käfig
-            ist viel zu schwer für Sie.“ Am Gesichtsausdruck des Stewards
+            Daraufhin streckte er seine Hand in Richtung Louis Moreau aus, der
+            kurz die Regung verlor und barsch erwiderte. „Lassen Sie das, der
+            Käfig ist viel zu schwer für Sie.“ Am Gesichtsausdruck des Stewards
             erkannte er, dass er offensichtlich zu harsch reagiert hatte und
             schob schnell eine Rechtfertigung nach. „Wissen Sie, das ist ein
             Hyazinth-Ara, also ein sehr wertvoller Papagei. Wir besitzen ihn
@@ -62,9 +66,9 @@ const Adventure = () => {
             er einen unbekannten Menschen sieht, kreischt er lauthals los. Ich
             wollte vermeiden, dass er all die anderen Gäste belästigt.“{" "}
             <br></br> <br></br>
-            „Oh“, wandte der Steward verständnisvoll ein, „da brauchen Sie keine
-            Sorge zu haben. Alle anderen Passagiere haben den Zug bereits hier
-            in Paris verlassen. Sie sind die einzigen Gäste an Bord.“ <br></br>
+            „Oh“, beruhigte ihn der Steward, „da brauchen Sie keine Sorge zu
+            haben. Alle anderen Passagiere haben den Zug bereits hier in Paris
+            verlassen. Sie sind die einzigen Gäste an Bord.“ <br></br>
             „Wie?“, Moreaus Stimme klang irritiert, „keine anderen Reisenden?
             Wie kann sich die Fahrt denn dann von Paris nach Konstantinopel für
             die Betreibergesellschaft überhaupt lohnen?“
@@ -77,8 +81,8 @@ const Adventure = () => {
             belegt sein“. Neugierig schob der Steward seinen Kopf in Richtung
             Vogelkäfig. „Darf ich den Ara denn kurz begrüßen?“
             <br></br> <br></br>
-            Alice glitt ihrem Mann mit der Hand über die Schulter. Dann warf sie
-            einen warmherzigen Blick in Richtung Steward und zog mit ihrer
+            Alice glitt ihrem Mann mit der Hand über die Schulter. Langsam warf
+            sie einen warmherzigen Blick in Richtung Steward und zog mit ihrer
             anderen Hand das Tuch vom Käfig, so dass ein großer, blauer Vogel
             mit gelben Augen zum Vorschein kam. „Vive la France! Vive la
             France!“, krächzte dieser und lies den Steward zusammenzucken. Dann
@@ -100,14 +104,14 @@ const Adventure = () => {
             Platz, um bis zur Abfahrt des Zuges noch in Ruhe einen Zigarillo zu
             rauchen und die Tageszeitung zu studieren, die er gerade erworben
             hatte. Er schlug die Zeitung auf und brannte mit dem Zigarillo ein
-            kleines Loch hinein. Es erlaubte ihm, den Orient Express im Auge zu
-            behalten. Und er staunte nicht schlecht, als eine junge Dame sich
-            dem Zug näherte. Obgleich sie nur ein schlichtes, graues Sommerkleid
-            tug, nagten sich Louis Augen quasi durch das Zeitungsloch. Die Frau
-            war das blühende Leben, geschwungene Rundungen, rote Lippen,
-            wallendes rotbraunes Haar, im Grunde alles, was ein Männerherz wie
-            das seine in Wallung bringen konnte. Die Reise würde somit aufregend
-            werden, das stand für ihn fest.
+            kleines Loch hinein. Es erlaubte ihm, den Orient Express besser im
+            Auge zu behalten. Und er staunte nicht schlecht, als eine junge Dame
+            sich dem Zug näherte. Obgleich sie nur ein schlichtes, graues
+            Sommerkleid trug, nagten sich Louis Augen quasi durch das
+            Zeitungsloch. Die Frau war das blühende Leben, geschwungene
+            Rundungen, rote Lippen, wallendes rotbraunes Haar, im Grunde alles,
+            was ein Männerherz wie das seine in Wallung bringen konnte. Die
+            Reise würde somit aufregend werden, das stand für ihn fest.
             <br></br> <br></br>
             Doch die Konkurrenz schien auch nicht auf sich warten zu lassen.
             Kurz nach der Dame bestieg nämlich ein fescher, muskulöser junger
@@ -116,7 +120,7 @@ const Adventure = () => {
             doch Louis konnte den belgischen Akzent sofort heraushören. Das
             musste also dieser Luc Claes sein, dachte Louis und entschied, sich
             diesen Herren näher anzusehen. <br></br> <br></br>
-            Daher stand auf, faltete die Zeitung zusammen und drückte den
+            Daher stand er auf, faltete die Zeitung zusammen und drückte den
             Zigarillo aus. Er war gerade dabei, die Stiege des Zuges zu
             betreten, als er in der Ferne eine Frauenstimme wahrnahm. „Halt,
             halt, ich muss noch mit“, rief eine gutbeleibte Dame mit
@@ -130,7 +134,7 @@ const Adventure = () => {
             Einstieg. Damit war eine weitere, redefreudige Reisegefährtin an
             Bord. Das erkannte auch der Steward, der alle Passagiere nun zu
             einem Kennlerndrink in den Gesellschaftsraum einlud. Jelena Petrovic
-            lies sich das nicht zweimal sagen und leerte gleich mehrere Gläser
+            lies sich das nicht zweimal sagen. Im Nu leerte sie mehrere Gläser
             Champagner. Die bereits gute Stimmung an Bord wurde noch heiterer.
             Schon bald ereiferte sich einjeder, über seine Herkunft, seine Ziele
             und den Grund für die Wahl des Orient-Expresses zu berichten.
@@ -139,15 +143,15 @@ const Adventure = () => {
             Antiquitätenhändler in Paris vorgestellt hatte, dass Jelena
             Journalistin bei einer serbischen Tageszeitung war und sich auf der
             Rückfahrt nach Belgrad befand. Sie war 31, verheiratet, aber ohne
-            Kinder und steckte ihre Nase gerne in alles hinein. Stundenlang
-            konnte sie Recherche betreiben, was ihren Mann mitunter zur
-            Verzweiflung brachte. Der wollte nämlich lieber mit ihr eine Familie
-            gründen. Natürlich wollte auch sie Kinder haben, aber noch nicht
-            jetzt, wo es bei der Zeitung so spannend war. Ihr Mann arbeitete als
-            erfolgreicher Immobilienhändler und das war auch wichtig, denn das
-            Gehalt, das die Zeitung ihr zahlte, war eher als Almosen zu
-            bezeichnen, statt einer Lebensgrundlage. Aber der Journalismus war
-            ihr Lebensinhalt.
+            Kinder und steckte ihre Nase gerne in alles und jedes hinein.
+            Stundenlang konnte sie Recherche betreiben, was ihren Mann mitunter
+            zur Verzweiflung brachte. Der wollte mit ihr lieber eine Familie
+            gründen. Natürlich wollte auch sie Kinder haben, irgendwann, aber
+            doch nicht jetzt, wo es bei der Zeitung so spannend war. Zum Glück
+            arbeitete ihr Mann als erfolgreicher Immobilienhändler, denn das
+            Gehalt, das die Zeitung Jelena zahlte, war eher ein Almosen denn
+            eine Lebensgrundlage. Aber der Journalismus war nun einmal ihr
+            Lebensinhalt.
             <br></br> <br></br>
             Im Gegensatz zur redseligen Jelena wirkte Luc Claes zurückhaltender.
             Er vermittelte einen ruhigen, eleganten und doch auf seine Art und
@@ -163,8 +167,8 @@ const Adventure = () => {
             Eifersucht. Musste dieser Luc sich gleich an seine Frau ranmachen?
             <br></br> <br></br>
             Und dann war da noch die Deutsche. Clara Fischer hieß sie. Angeblich
-            hatte ihr Vater ihr die Reise bezahlt, als letztes großes Erlebnis
-            vor ihrer Hochzeit im Herbst. Sie war jetzt 28 und damit schon recht
+            hatte ihr Vater ihr die Reise als letztes großes Erlebnis vor ihrer
+            Hochzeit im Herbst bezahlt. Sie war jetzt 28 und damit schon recht
             alt für ein Fräulein. Auch wenn der erste Weltkrieg dazwischen
             gekommen war, warum war so ein Rasseweib nicht schon lange unter der
             Haube? Louis konnte sich keinen Reim aus alle dem machen. Wenn sie
@@ -173,10 +177,10 @@ const Adventure = () => {
             dann nur mit einem kleinen Koffer? Weshalb war sie so schlicht
             gekleidet? Ihr Vater schien doch Geld wie Heu zu haben! Und welcher
             zukünftige Gatte wäre damit einverstanden, dass seine Verlobte ohne
-            ihn auf Abenteuerreise ging? Das alles passte aus seiner Sicht
+            ihn auf Abenteuerreise ginge? Das alles passte aus seiner Sicht
             überhaupt nicht zusammen.
             <br></br> <br></br>
-            Louis wischte sich mit der Hand übers Gesicht. Er wollte seine
+            Louis wischte sich mit der Hand über das Gesicht. Er wollte seine
             Gedanken vertreiben. Heiß sah die Clara aus, wirklich einladend. Er
             stellte sich schon ein Tête-à-tête mit ihr vor. Noch waren es 250
             Kilometer bis nach Budapest, also genug Zeit, um tiefergehende
@@ -184,10 +188,11 @@ const Adventure = () => {
             Anwesenden zu einer Runde Gin-Fizz ein, den er bei diesen
             Temperaturen als besonders erfrischendes Getränk anpries. Nachdem
             alle ihr Glas geleert hatten, beschlossen die Gäste, sich bis zum
-            Mittagessen noch in ihre Abteile zu geben, um sich frisch zu machen.
+            Mittagessen noch in ihre Abteile zu begeben, um sich frisch zu
+            machen.
             <br></br> <br></br>
             Das Mittagessen wurde um 13 Uhr im Speisewagen serviert. Dort waren
-            zweier Tische eingedeckt worden, an denen die Reisenden nun Platz
+            2er Tische eingedeckt worden, an denen die Reisenden nun Platz
             nahmen. Louis schob seinen Arm über den Tisch und streichelte
             liebevoll die Hand seiner Frau. Dabei schaute er sie mitleidsvoll
             an. „Meine Ärmste. Da reisen wir schon im vollen Luxus und Du
@@ -204,11 +209,11 @@ const Adventure = () => {
             hattest. Vielleicht bin ich deshalb noch nicht so richtig wach, aber
             es geht mir schon besser.“ Louis drückte ihr sanft bestätigend die
             Hand, wusste er doch, dass die Migräne nicht zufällig eingetreten
-            war. Schnell hatte er in der Ehe mit Alice bemerkt, wie einfach man
+            war. Schnell hatte er in der Ehe mit Alice bemerkt, wie einfach er
             sie manipulieren konnte, um seinen Willen durchzusetzen. Es war gut
             zu wissen, dass man Alice mit etwas Histamin, welches sich in jedem
             Zitronensaft befand, für Stunden ausschalten konnte. Er machte gerne
-            davon Gebrauch, wenn er es für nützlich ansah.
+            davon Gebrauch, wenn er es für nützlich hielt.
             <br></br> <br></br>
             Dann betraten die übrigen Gäste den Speisewagen. Auch Luc Claes, der
             jetzt einen dreiteiligen Anzug mit Weste trug. Louis spürte erneut,
@@ -230,12 +235,12 @@ const Adventure = () => {
             Hier und Jetzt zurück.
             <br></br> <br></br>
             Um 14:05 Uhr sollte der Zug in Budapest ankommen. Wie spät war es
-            jetzt? Louis schob seine Anzugjacke ein wenig hoch, um auf die Uhr
+            jetzt? Louis schob seine Anzugjacke ein wenig hoch, um auf seine Uhr
             zu schauen. Er erschrak, denn die teure Cartieruhr befand sich nicht
-            mehr an seinem Arm. Wo konnte sie hingekommen sein? Er dachte nach,
-            wo er sie abgenommen haben könnte.
+            mehr an seinem Arm. Wo konnte sie hingekommen sein? Er überlegte, wo
+            er sie abgenommen haben könnte.
             <br></br> <br></br>
-            Wie Schuppen fiel es ihm von den Augen. Ja, bei Clara im Abteil.
+            Wie Schuppen fiel es ihm nun von den Augen. Ja, bei Clara im Abteil.
             Dort hatte er sie für das Schäferstündchen abgenommen und auf den
             Beistelltisch gelegt. Was für ein Trottel er doch war. Die teure
             Cartier Tank! Er erinnerte sich noch genau, wie er das gute Stück
@@ -243,7 +248,7 @@ const Adventure = () => {
             den ersten Blick und obwohl sie 30.000 Francs gekostet hatte, musste
             er sie haben, so wie er immer alles haben musste, was ihn ansprach.
             So, wie er auch Clara haben musste, dieses Flittchen. Nach dem Essen
-            würde er dort nach dem Rechten schauen müssen.
+            würde er bei ihr nach dem Rechten sehen.
             <br></br> <br></br>
             Zu Louis Leidwesen zog sich die Mahlzeit unendlich lange hin, denn
             wer Luxus bestellt, bekommt auch Luxus geliefert. Das 5-Gängemenu
@@ -254,10 +259,10 @@ const Adventure = () => {
           </h2>
           <div class="zig-zag zig-zag-color1">Hauptbahnhof Budapest</div>
           <h2 className="adventure-text">
-            Alice schwärmte. „Cherie, das war délicieux! Mir geht es schon viel
+            Alice schwärmte. „Chéri, das war délicieux! Mir geht es schon viel
             besser. Wollen wir hier in Budapest kurz aussteigen? Bitte, mir wird
-            die frische Luft sicher gut tun und wir haben ja noch eine Stunde
-            Zeit, bis der Zug weiterfährt“.
+            die frische Luft sicherlich gut tun und wir haben ja noch eine
+            Stunde Zeit, bis der Zug weiterfährt“.
             <br></br> <br></br>
             Als treuherziger Ehemann konnte Louis seiner Frau diese Bitte nicht
             abschlagen und so begaben sie sich auf einen Mokka in ein
@@ -293,17 +298,18 @@ const Adventure = () => {
             des Vertrages von Sevres, der die Auflösung des Osmanischen Reiches
             regelte und demzufolge weite Teile des alten Staatsgebietes
             abgetreten werden mussten. Für viele Türken war er folglich nichts
-            als ein Verräter. Kein Wunder, dass er sich bei einer solchen
-            Stellung diese Reise leisten konnte. Vermutlich rechnete er alle
-            Kosten zu Lasten der Steuerzahler ab, schlussfolgerte Louis. Doch er
-            hatte kein Interesse, sich näher mit Kemal zu befassen. Alice war da
-            anderer Ansicht. Sie liebte gebildete, belesene Menschen und da
-            Yilmaz beim Anblick des Flügels im Gesellschaftszimmer verlautbart
-            hatte, er habe früher darüber nachgedacht, Musik zu studieren,
-            begleitete sie ihn zu einer Hörprobe dorthin.
+            anderes als ein Verräter. Kein Wunder, dass er sich bei einer
+            solchen Stellung diese Reise leisten konnte, dachte Louis.
+            Vermutlich rechnete er alle Kosten zu Lasten der Steuerzahler ab,
+            schlussfolgerte er. Doch er hatte kein Interesse, sich näher mit
+            Kemal zu befassen. Alice war da anderer Ansicht. Sie liebte
+            gebildete, belesene Menschen und da Yilmaz beim Anblick des Flügels
+            im Gesellschaftszimmer verlautbart hatte, er habe früher darüber
+            nachgedacht, Musik zu studieren, begleitete sie ihn zu einer
+            Kostprobe dorthin.
             <br></br> <br></br>
             Louis war dies recht, da er noch unauffällig seine Uhr aus Abteil 2
-            holen musste. Mit einer Haarnadel in der Hand begab er sich daher in
+            holen musste. Mit einer Haarnadel in der Hand begab er sich in
             Richtung des Abteils und erkannt sofort, dass er dieses Hilfsmittel
             gar nicht benötigte, denn die Abteiltür stand bereits sperrangelweit
             offen. Das Reinigungspersonal brachte frische Handtücher und schaute
@@ -312,16 +318,15 @@ const Adventure = () => {
             seine Cartier aber nicht finden. In seiner Not holte er rasch eine
             Flasche Rotwein aus seinem Abteil, die er vor dem Speisewagen auf
             dem Boden zerschellen lies. Dann eilte er zur Reinigungskraft, der
-            er andeutete, sie solle rasch den Gang zu säubern, bevor sich jemand
-            an den Scherben verletze oder die hartnäckigen Rotweinflecken nicht
+            er andeutete, sie solle rasch den Gang säubern, bevor sich jemand an
+            den Scherben verletze oder die hartnäckigen Rotweinflecken nicht
             mehr beseitigt werden könnten. Seinem Plan folgend, eilte die
             Reinigungskraft aus Claras Abteil, um Besen und Kelle zu besorgen
-            und vergaß dabei, die Tür abzuschließen. Louis huschte in Claras
-            Abteil, um es nach seiner Uhr abzusuchen. Dabei musste er sich
-            beeilen, denn Clara und Luc würden spätestens in 20 Minuten zurück
-            sein, wenn sie die Abfahrt nicht verpassen wollten. <br></br>{" "}
-            <br></br>
-            Rasch spähte er in den kleinen Koffer, der zu seiner Überraschung
+            und vergaß dabei, die Tür abzuschließen. Louis huschte ins Abteil,
+            um es nach seiner Uhr abzusuchen. Dabei musste er sich beeilen, denn
+            Clara und Luc würden spätestens in 20 Minuten zurück sein, wenn sie
+            die Abfahrt nicht verpassen wollten. <br></br> <br></br>
+            Rasch spähte er in Claras kleinen Koffer, der zu seiner Überraschung
             fast leer war. Er durchsuchte den Schrank, schaute hinter den
             Bildern und unter dem Bett nach. Nichts. Seine Uhr war nicht da.
             <br></br> <br></br>
@@ -329,7 +334,7 @@ const Adventure = () => {
             erkannte es. Es war Clara. Auch die Reinigungskraft hatte ihre
             Rückker bemerkt. Eilig zog sie die Tür zu Claras Abteil zu und
             schloss ab, ohne nochmals ins Zimmer geschaut zu haben. In keinem
-            Fall wollte sich sich dem Verdacht ausetzen, ihren Dienst unachtsam
+            Fall wollte sie sich dem Verdacht ausetzen, ihren Dienst unachtsam
             versehen zu haben.
             <br></br> <br></br>
             Louis rann der Schweiß aus allen Poren. Jetzt saß er in der Falle.
@@ -337,52 +342,52 @@ const Adventure = () => {
             riefe? All seine Arbeit wäre dann umsonst gewesen. Das durfte nicht
             sein. Es blieb ihm nur das Fenster. Zügig drückte er dieses auf und
             kletterte auf das Dach des Zuges. Um nicht vom Bahnsteig aus gesehen
-            zu werden, robbte er auf dem Dach vorwärts. Er schob sich über das
-            Abteil von Luc hinweg, in welches er so gerne hineingeschaut hätte.
-            Es interessierte ihn zu wissen, ob Luc nun das Flittchen nun zu sich
-            einladen würde. Innerlich kochte es in Louis. Das Flittchen brachte
-            ihn wirklich zur Weißglut. Er kroch noch ein wenig weiter, bis an
-            die Stelle, an der er sein eigenes Abteil vermutete. Vorsichtig
-            blickte er seitlich am Wagon hinunter und erblickte das Fenster. Wie
-            auch die anderen Fenster war es geschlossen, doch dort, wo der obere
-            Fensterteil auf den unteren stieß, gab es eine dünne Kante, an der
-            das Fenster beim Öffnen innen vorbeiglitt. Er müsste sich somit
-            langsam seitlich herablassen, um auf dieser Kante mit den Füßen Halt
-            zu finden. Er durfte keine Zeit verlieren. Noch stand der Zug, da
-            war das Risiko Herunterzufallen gering, aber wenn der Zug erst
-            einmal Fahrt aufgenommen hätte, würde das Ganze ein
-            halsbrecherisches Verfangen.
+            zu werden, robbte er auf dem Dach vorwärts. So schob er sich über
+            das Abteil von Luc hinweg, in welches er so gerne hineingeschaut
+            hätte. Es interessierte ihn zu wissen, ob Luc nun das Flittchen zu
+            sich einladen würde. Innerlich kochte es in Louis. Das Flittchen
+            brachte ihn wirklich zur Weißglut. Er kroch noch ein wenig weiter,
+            bis an die Stelle, an der er sein eigenes Abteil vermutete.
+            Vorsichtig blickte er seitlich am Wagon hinunter und erblickte das
+            Fenster. Wie auch die anderen Fenster war es geschlossen, doch dort,
+            wo der obere Fensterteil auf den unteren stieß, gab es eine dünne
+            Kante, an der das Fenster beim Öffnen innen vorbeiglitt. Er müsste
+            sich somit langsam seitlich herablassen, um auf dieser Kante mit den
+            Füßen Halt zu finden. Es gab keine Zeit zu verlieren. Noch stand der
+            Zug, da war das Risiko, Herunterzufallen, gering, aber wenn der Zug
+            erst einmal Fahrt aufgenommen hätte, würde das Ganze ein
+            halsbrecherisches Verfangen werden, das war ihm bewusst.
             <br></br> <br></br>
             Ohne weitere Überlegungen, ließ er sich bauchwärts an der Zugwand
-            hinuntergleiten. Zum Glück war das Dach des Zuge mit einer dicken
-            Staubschicht bedeckt, die sich als äußerst stumpf und klebrig erwies
-            und so ein unkontrolliertes Abgleiten verhinderte. Mit der
-            Schuhspitze gilt er am Fenster entlang und faste in der Tat auf der
-            Kante Halt. Louis presste seine Hände an die obere Scheibe, um sie
-            kraftvoll nach unten zu drücken. Dabei fiel sein Blick ins Innere
-            des Abteils. Er hielt Inne. Im Abteil saß Jelena und schniefte sie
-            lautstark in ihr Taschentuch.
+            hinuntergleiten. Glücklicherweise war das Dach des Zuge mit einer
+            dicken Staubschicht bedeckt, die sich als äußerst stumpf und klebrig
+            erwies und so ein unkontrolliertes Abgleiten verhinderte. Mit der
+            Schuhspitze glitt er am Fenster entlang und fasste in der Tat auf
+            der Kante Halt. Louis presste seine Hände an die obere Scheibe, um
+            sie mit Kraft nach unten zu drücken. Dabei fiel sein Blick ins
+            Innere des Abteils. Er hielt inne. Im Abteil saß Jelena und
+            schniefte lautstark in ihr Taschentuch.
             <br></br> <br></br>
             Wenn ihm die Gefühlsausbrüche von Frauen immer schon als sonderbar
             erschienen waren, so dankte Louis jetzt Gott dafür, dass Jelena so
             in ihrem Leid gefangen war, dass sie ihn nicht wahrnahm. Mühsam zog
-            er sich mittels Dachkante zurück aufs Zugdach. Dort krabbelte er
-            langsam rückwärts, bis er auf Höhe des vorherrigen Fensters war.
-            Dies musste definitiv nun sein Abteil sein, beruhigte er sich. Als
-            er herunterblickte, registrierte er zu seiner Erleichterung, dass
-            das Fenster offen stand. Alice hatte es bestimmt wegen ihrer Migräne
-            aufgelassen, um viel frische Luft zu bekommen.
+            er sich an der Dachkante zurück aufs Zugdach. Dort krabbelte er
+            langsam rückwärts, bis er sich auf Höhe des vorherigen Fensters
+            befand. Dies musste definitiv nun sein Abteil sein, beruhigte er
+            sich. Als er herunterblickte, registrierte er zu seiner
+            Erleichterung, dass das Fenster offen stand. Alice hatte es bestimmt
+            wegen ihrer Migräne aufgelassen, um viel frische Luft zu bekommen.
             <br></br> <br></br>
             Die Dachkante fest umgriffen lies Louis sich erneut seitlich am Zug
             hinuntergleiten. In diesem Moment hallte der Abfahrtpfiff des
-            Schaffners durch die Bahnhofshalle un der Zug setzte sich ruckartig
-            in Bewegung. Louis spürte bereits den Fahrtwind auf seinem Körper
-            und das Gefühl, die Kontrolle verloren zu haben. Irgendetwas bewegte
-            ihn, seine Beine einzuknicken, was dazu führte, dass er sich mit
-            einem Bein im Fenster verhakte und wieder Halt gewann. Dem Bein
-            folgend schob er nun seinen ganzen Köper durch das Fenster ins
-            Zuginnere und kam mit einem Sturz auf dem handgeklöppelten Läufer
-            vor dem Doppelbett zum Liegen.
+            Schaffners und der Zug setzte sich ruckartig in Bewegung. Louis
+            spürte bereits den Fahrtwind auf seinem Körper und das Gefühl, die
+            Kontrolle verloren zu haben. Irgendetwas bewegte ihn, seine Beine
+            einzuknicken, was dazu führte, dass er sich mit einem Bein im
+            Fenster verhakte und wieder Halt gewann. Dem Bein folgend schob er
+            nun seinen ganzen Köper durch das Fenster ins Zuginnere und kam mit
+            einem Sturz auf dem handgeklöppelten Läufer vor dem Doppelbett zum
+            Liegen.
             <br></br> <br></br>
             Der Ara im Käfig schrak auf und fing an zu Schreien. Ein völlig
             dreckverschmierte Louis ängstigte ihn so sehr, dass er im lauten Ton
@@ -430,9 +435,9 @@ const Adventure = () => {
             Ich denke, dass wir daher erst gegen 8 Uhr morgens in Sofia
             einlaufen werden. Um Konstantinopel nicht zu spät anzufahren, wird
             die Pause in Sofia nur 30 Minuten betragen. Für die letzte Etappe
-            nach Konstantinopel rechnen wir mit 8 Stunden Fahrzeit, da sie über
-            550 Kilometer umfasst. Ich hoffe, dass wir gegen 16:30 Uhr in der
-            Hauptstadt des Osmanischen Reiches ankommen werden. Reicht Ihnen
+            nach Konstantinopel rechnen wir mit 8 Stunden Fahrzeit, da sie mehr
+            als 550 Kilometer umfasst. Ich hoffe, dass wir gegen 16:30 Uhr in
+            der Hauptstadt des Osmanischen Reiches ankommen werden. Reicht Ihnen
             diese Auskunft?“
             <br></br> <br></br>
             „Das war wirklich ausführlich. Ich danke Ihnen. Ach, und was gibt es
@@ -440,8 +445,8 @@ const Adventure = () => {
             <br></br> <br></br>„Im Gesellschaftssalon werden üblicherweise
             Kartenspiele gespielt und Herr Yilmaz hat angeboten, ein kleines
             Konzert auf dem Flügel zu geben.“ Louis schnauft vor sich hin. „Ach,
-            hat er das! Na das ist ja wunderbar.“, die Ironie in seiner Stimme
-            war nicht zu überhören. Er drehte sich wieder seiner Frau Alice zu,
+            hat er das! Na das ist ja wunderbar.“ Die Ironie in seiner Stimme
+            war nicht zu überhören. Er drehte sich wieder zu seiner Frau Alice,
             die er an ihren Tisch begleitete. <br></br> <br></br>
             An diesem Abendessen nahmen alle Passagiere, außer Clara Fischer
             teil. Dies fiel jedoch nicht auf, da sich die gesamte Aufmerksamkeit
@@ -451,24 +456,24 @@ const Adventure = () => {
             Geschäfte als Handelsvertreter machte und so ein großes Vermögen
             angehäuft. Dass es Frau Kaya gut ging, war offensichtlich. Sie hatte
             das luxuriöseste Abteil des Expresses gebucht, trug die modernste
-            französische Mode aus edlen Stoffen und wirkte in ihnen fast wie
-            eine Königin. Trotz ihres Alters war sie ein absoluter
-            Anziehungsmagnet. Nicht nur, dass sie ihre lange und mit wertvollen
-            Steinen besetzte Halskette beständig um ihren rechten Zeigefinger
-            kreisen lies, und auch nicht wegen ihres atembetäubenden Parfums,
-            das an jedem Gegenstand, den sie berührte, haften blieb, nein, sie
-            strahlte aus sich heraus und wirkte gleichzeitig geheimnisvoll.
-            Jelena, Luc aber auch Louis waren verzaubert. So war es denn Louis
-            auch egal, dass Kemal Yilmaz nach dem Essen sein Konzert auf dem
-            Flügel gab und Alice daneben saß und ihn anhimmelte.
+            französische Mode aus edlen Stoffen und wirkte in ihr fast wie eine
+            Königin. Trotz ihres Alters war sie ein absoluter Anziehungsmagnet.
+            Nicht nur, dass sie ihre lange und mit wertvollen Steinen besetzte
+            Halskette beständig um ihren rechten Zeigefinger kreisen lies, und
+            auch nicht wegen ihres atembetäubenden Parfums, das an jedem
+            Gegenstand, den sie berührte, haften blieb, nein, sie strahlte aus
+            sich heraus und wirkte gleichzeitig geheimnisvoll. Jelena, Luc, aber
+            auch Louis, waren verzaubert. So war es denn Louis auch egal, dass
+            Kemal Yilmaz nach dem Essen sein Konzert auf dem Flügel gab und
+            Alice daneben saß und ihn anhimmelte.
             <br></br> <br></br>
             Merkwürdigerweise schien das Hatice Kaya aber wiederum nicht zu
             gefallen, denn sobald die letzte Note verklungen war, drängte sie
             Kemal, er solle jetzt mit ihr Karten spielen. Trotz ihres erotischen
             Augenaufschlages vermochte sie ihn jedoch nicht zu überzeugen. Er
             erklärte, dass er Geldspiele auf den Tod nicht ausstehen könne und
-            auch die Hatices Anregung, nur zum Spaß zu spielen, änderte nichts
-            an seiner Einstellung.
+            auch Hatices Anregung, nur zum Spaß zu spielen, änderte nichts an
+            seiner Einstellung.
             <br></br> <br></br>
             Letztendlich willigte Kemal ein, einen Karaoke-Abend zu
             veranstalten, bei dem er die Sänger musikalisch begleiten wollte.
@@ -497,41 +502,40 @@ const Adventure = () => {
             Ihren abgeben?“ Luc lächelte „Aber gerne doch“ und griff mit der
             Hand in seine Anzugsjacke, fand aber nichts. Dann tastete er alle
             Taschen seines Anzugs ab und musste verwundert feststellen, dass
-            sein goldenes Zigarettenetui verschwunden war. „Merkwürdig. Ich
-            hatte genau diesen Anzug heute in Budapest an, da war das Etui noch
+            sein goldenes Zigarettenetui verschwunden war. „Merkwürdig. Genau
+            diesen Anzug hatte ich heute in Budapest an, da war das Etui noch
             drin und ich habe es seither nicht mehr herausgenommen.“,
             rechtfertigte er sich.
             <br></br> <br></br>
             Jelena hatte das Problem erkannt und sprang schnell ein, indem sie
             Louis ihre Gauloises anbot. Dann berichtete Luc, was Louis wissen
             wollte. Er lebte in Liège und betrieb dort ein Atelier, das prächtig
-            Gewinn abwarf. Er liebte das Schöne und Edle. Nun war er auf dem
-            Weg, Künstler, die sich in den letzten Jahren des Osmanischen
-            Reiches einen Namen gemacht hatten, für sein Atelier zu gewinnen.
-            Auf Louis Frage, ob er verheiratet sei, erklärte, dass er noch immer
-            auf der Suche nach der richtigen sei und deshalb jede Frau
-            anspreche, die ihm auf den ersten Blick gefiele. Da die Dame
-            selbstverständlich auch innere Werte haben müsse, die seinem Bild
-            entsprächen, sei eine engere Beziehung bislang leider immer
-            gescheitert. <br></br>
+            Gewinn abwarf. Luc liebte das Schöne und Edle. Nun war er auf dem
+            Weg, Künstler, die sich in den letzten Jahren im Osmanischen Reiches
+            einen Namen gemacht hatten, für sein Atelier zu gewinnen. Auf Louis
+            Frage, ob er verheiratet sei, erklärte, dass er noch immer auf der
+            Suche nach der Richtigen sei und deshalb jede Frau anspreche, die
+            ihm auf den ersten Blick gefiele. Da die Dame selbstverständlich
+            auch innere Werte haben müsse, die seinem Bild entsprächen, sei eine
+            engere Beziehung bislang leider immer gescheitert. <br></br>
             <br></br>
             „Clara Fischer zum Beispiel ist eine wunderschöne Frau, aber leider
             ist sehr einfältig. Nicht so, wie unsere Jelena“- Luc klopfte ihr
             auf die Schulter, „aber Jelena ist halt verheiratet. Bleibt hier an
             Bord somit nur Hatice. Da ich ein paar Tage in Konstantinopel
             verbringen werde, hätte ich durchaus Zeit, sie näher kennen zu
-            lernen.“ <br></br> <br></br>
+            lernen“, stellte Luc fest. <br></br> <br></br>
             „Aber Hatice ist doch viel älter als Sie. Sie könnte doch ihre
-            Mutter sein und sie ist zu alt, als dass sie mit ihr eine Familie
+            Mutter sein und sie ist zu alt, als dass Sie mit ihr eine Familie
             gründen könnten.“, wandte Louis empört ein. „Familie“, prustete Luc,
             „wozu brauche ich noch mehr Familie? Ich habe vier Geschwister und
-            die sind alle verheiratet und haben Kinder. Ich brauche eine Dame
-            für mein Herz. Einen Menschen, der mit mir fühlt und den ich
+            die sind alle verheiratet und haben eigene Kinder. Ich brauche eine
+            Dame für mein Herz. Einen Menschen, der mit mir fühlt und den ich
             glücklich machen kann.“
             <br></br> <br></br>
             Aus dem Gang ertönte nun ein lautes Hundegebell, das mehr ein
             Geknurre war und gar nicht freundlich wirkte. „Was ist das?“, wollte
-            Jelena wissen, „gibt es hier Tiere an Bord? Ich dachte, das sei
+            Jelena wissen, „gibt es hier an Bord Tiere? Ich dachte, das sei
             nicht erlaubt!“ „Der Steward teilte mir mit, dass Hatice einen
             Cavalier King Charles Spaniel besitze. Der soll aber ein liebevolles
             Wesen sein. Nur bei Menschen, die es nicht leiden mag, knurrt es.“,
@@ -544,12 +548,12 @@ const Adventure = () => {
             Hatice sie ausstrahlt“, ergänzte sie.
             <br></br> <br></br>
             „Vielleicht liegt es daran, dass beide die gleiche
-            Staatsbürgerschaft haben“, beendete Louis die Konversation. Seit
+            Staatsbürgerschaft besitzen“, beendete Louis die Konversation. Seit
             Hatice den Saal verlassen hatte, war sein Interesse an der
             Abendveranstaltung massiv geschwunden. So verabschiedete er sich und
             kehrte zusammen mit Alice in sein Abteil zurück. Als sie die Tür
-            öffneten, mussten sie eine grausame Entdeckung machen. Die Tür des
-            Vogelkäfigs stand offen, ebenso das Fenster und der Ara war
+            öffneten, mussten sie jedoch eine grausame Entdeckung machen. Die
+            Tür des Vogelkäfigs stand offen, ebenso das Fenster und der Ara war
             verschwunden. Voller Panik untersuchte Louis den gesamten Käfig. Er
             kochte vor Wut und rannte in den Gang. Dort klopfte er mehrfach an
             die Tür von Abteil 2, doch niemand öffnete.
@@ -561,9 +565,9 @@ const Adventure = () => {
             danach schlafen Sie sicherlich wie ein Murmeltier.“ Louis bedankte
             sich für den Rat und kehrte in sein Abteil zurück. Solange der Zug
             im Bahnhof stand, empfand er es als zu riskant, nochmals den Versuch
-            zu unternehmen, in das Abteil von Clara Fischer zu gelangen. Er
-            musste also warten. Alice hatte sich derweil hingelegt und schlief
-            bereits tief und fest.
+            zu unternehmen, in Claras Abteil zu gelangen. Er musste also warten.
+            Alice hatte sich derweil hingelegt und schlief bereits tief und
+            fest.
           </h2>
           <div class="zig-zag zig-zag-color1">Hauptbahnhof Belgrad</div>
           <h2 className="adventure-text">
@@ -591,14 +595,14 @@ const Adventure = () => {
             Vorhang nach. Nichts. Clara war mitsamt all ihrer Habe verschwunden.
             Er schlug sich mit der Faust vor den Kopf. Was ein Hirnriese er doch
             war. Warum hatte er nicht die ganze Zeit den Gang im Auge behalten?
-            Das Flittchen musste in Belgrad den Zug verlassen haben. <br></br>{" "}
-            <br></br>
+            Das Flittchen musste in Belgrad den Zug verlassen haben,
+            schlussfolgerte er. <br></br> <br></br>
             Zurück im seinem Bett war es Louis unmöglich, einzuschlafen. Immer
-            wieder machte er sich Vorwürfe, fasste sich an der Stirn, drehte und
-            wälzte sich im Bett. Als er endlich in tiefen Schlaf fiel, war es
-            schon halb vier morgens. Daher schnarchte er zur Frühstückszeit noch
-            immer laut vor sich hin, was sich Alice veranlasste, alleine
-            frühstücken zu gehen.
+            wieder machte er sich Vorwürfe, fasste sich an die Stirn, drehte und
+            wälzte sich im Bett. Als er endlich in tiefen Schlaf fiel, zeigt der
+            Wecker neben dem Bett schon halb vier morgens an. Daher schnarchte
+            er zur Frühstückszeit noch immer laut vor sich hin, was sich Alice
+            veranlasste, alleine frühstücken zu gehen.
           </h2>
           <div class="zig-zag zig-zag-color1">Hauptbahnhof Sofia</div>
           <h2 className="adventure-text">
@@ -609,19 +613,19 @@ const Adventure = () => {
             und heute Nacht zugestiegen. Neugierig auf die edel aussehende Dame,
             bot Alice ihr den Stuhl gegenüber an und war rasch in ein Gespräch
             eingebunden. Es irritierte Alice, dass Frau Wegener auch beim
-            Frühstück ihre dünnen weißen Handschuhe nicht ablegte.
+            Frühstück ihre dünnen, weißen Handschuhe nicht ablegte.
             <br></br> <br></br>
             „Das schickt sich für eine Damen meines Standes nicht“, ließ Frau
             Wegener sie wissen und lenkte das Gespräch gleich in eine andere
-            Richtung. „Und, wie ist es hier an Bord? Haben Sie viel Spaß“. Alice
-            freute sich, vom gestrigen Karaoke-Abend berichten zu können.
+            Richtung. „Und, wie ist es hier an Bord? Haben Sie viel Spaß?“.
+            Alice freute sich, vom gestrigen Karaoke-Abend berichten zu können.
             <br></br> <br></br>
             „So, es sind also viele musikalische Gäste an Bord“, fasste Frau
             Wegener den Vortrag zusammen. „In der Tat. Die Hatice, was die für
             eine Stimme hat, dabei ist sie doch schon um die 50 Jahre. Ach,
             schauen Sie, da kommt sie gerade“, Alica wies zur Tür. Da Frau
             Wegener mit dem Rücken zur Tür saß, musste sie sich kurz umdrehen.
-            Hatice hatte wieder ein kostbares Designerkleid an und schwang, wie
+            Hatice trug wieder ein kostbares Designerkleid und schwang, wie
             immer, ihre Juwelenkette. Luc bot ihr einen Platz an seinem Tisch an
             und Hatice gab sogleich ihre Bestellung beim Kellner auf.
             <br></br> <br></br>
@@ -631,15 +635,15 @@ const Adventure = () => {
             Als Alice nach dem Frühstück zurück in ihr Abteil kehrte, berichtete
             sie Louis, der inzwischen aufgestanden war, von der seltsamen
             Begegnung. „Du hättest sie sehen sollen. Wie aus einem anderen
-            Jahrhundert. Es sieht alles elegant aus, ja, aber ein total
-            veralteter Stil. Welche Dame trägt denn heutzutage den ganzen Tag
-            Handschuhe? Und dann auch noch beim Frühstück? Und ist sie
-            weggegangen, um ihre Tabletten zu holen und nicht mehr zurück
-            gekommen. Du scheinst heute Morgen übrigens nicht der einzige zu
-            sein, der Verschlafen hat. Jelena war auch nicht beim Frühstück“,
-            wollte Alice ihren Mann beruhigen. „Ihr habt gestern wohl doch zu
-            tief ins Glas geschaut, befürchte ich“, sie strich ihm über die
-            Haare.
+            Jahrhundert. Es sieht alles elegant aus, was sie trägt,... ja, aber
+            es ist ein total veralteter Stil. Welche Dame trägt denn heutzutage
+            den ganzen Tag Handschuhe? Und dann auch noch beim Frühstück? Und
+            dann ist sie weggegangen, um ihre Tabletten zu holen und nicht mehr
+            zurück gekommen. Alles sehr merkwürdig, findest du nicht auch?" Sie
+            blickte zu Louis und fuhr fort "Du scheinst heute Morgen übrigens
+            nicht der einzige zu sein, der Verschlafen hat. Jelena war auch
+            nicht beim Frühstück. Ihr habt gestern wohl doch zu tief ins Glas
+            geschaut, befürchte ich“, sie strich ihm über die Haare.
             <br></br> <br></br>
             „Nein, nein. Jelena hatte nur ein Ticket bis Belgrad. Die ist heute
             Nacht ausgestiegen. Aber diese Deutsche ist auch ausgestiegen, diese
@@ -647,21 +651,23 @@ const Adventure = () => {
             egal, wir haben mit der doch nichts zu tun!“, wandte Alice
             beruhigend ein. „Nichts zu tun?“, Louis sprang empört auf und lief
             zum Vogelkäfig. „Nichts zu tun?“, dann riss er das Tuch vom Käfig
-            und schrie „sie hat uns bestohlen! Schau, der Käfig ist leer, dabei
-            drehte er den Käfig kopfüber!“.
+            und schrie „sie hat uns bestohlen! Schau, der Käfig ist leer", dabei
+            drehte er den Käfig kopfüber, was wolle er ihn wie einen Sack
+            ausschütteln.
             <br></br> <br></br>
             Alice legte ihren Finger an den Mund, und lies ein „Pssssch“
-            erschallen. „Nicht so laut. Es muss ja keiner hören.“
+            erschallen. „Nicht so laut. Es muss ja keiner hören....“
             <br></br> <br></br>
-            Ein unüberhörbarer Schrei schrillte durch den Zug. Es war die
+            Ein unüberhörbarer Schrei schrillte durch den ganzen Zug. Es war die
             Serviererin, die Hatice Kaya, wie jeden Tag üblich, etwas
             Hundefutter für den Spaniel brachte. Der Spaniel rannte verstört aus
-            dem Abteil den Gang entlang und verschwand durch die Beine der
-            vielen Schaulustigen, die vom Schrei angelockten worden waren und
-            nun auf eine Szene des Grauens starrten. Hatice, welche am Abend
+            dem Abteil der Kaya den Gang entlang und verschwand durch die Beine
+            der vielen Schaulustigen, die vom Schrei angelockten worden waren
+            und nun auf eine Szene des Grauens starrten. Hatice, welche am Abend
             noch so eine strahlende Persönlichkeit gewesen war, lag regungslos
             zwischen den Sesseln, erdrosselt mit dem Gürtel ihres eigenen
-            Kleides. Ihre Juwelenkette war vom Hals verschwunden.
+            Kleides. Ihre Juwelenkette, die immer um ihren Hals gehangen hatte,
+            war verschwunden.
             <br></br> <br></br>
             Der Steward erkannte als erster, was nun zu tun sei. Rasch zog er
             Hatices Abteiltür ins Schloss und wies alle Reisenden an, in ihren
@@ -669,12 +675,12 @@ const Adventure = () => {
             denn eines sei klar, der Mörder müsse sich noch an Bord befinden.
             Der Schaffner werde die Polizei in Konstantinopel informieren, so
             dass diese den Zug gleich in Empfang nehmen könne, wenn er dort in
-            seinen Zielbahnhof anliefe.
+            seinen Zielbahnhof einliefe.
           </h2>
           <div class="zig-zag zig-zag-color1">Hauptbahnhof Konstantinopel</div>
           <h2 className="adventure-text">
-            Tiefschockiert folgten die Gäste den Anweisung und kamen erst dann
-            wieder im Gesellschaftsraum des Zuges zusammen, als ein Kommissar in
+            Tiefschockiert folgten die Gäste der Anweisung und kamen erst wieder
+            im Gesellschaftsraum des Zuges zusammen, als ein Kommissar in
             Konstantinopel den Zug betreten und zu dieser Maßnahme aufgerufen
             hatte.
             <br></br> <br></br>
@@ -685,8 +691,8 @@ const Adventure = () => {
             lebend im Speisewagen gesehen. Zu diesem Zeitpunkt hatte der Orient
             Express, in dem wir uns hier befinden, den Hauptbahnhof Sofia
             bereits verlassen. Zwischen Sofia und Konstantinopel hat der Zug
-            nicht mehr angehalten und er wurde hier sofort von Polizei umstellt.
-            Der Mörder muss somit noch an Bord sein. Ich werde nun die
+            nicht mehr angehalten und er wurde hier sofort von der Polizei
+            umstellt. Der Mörder muss somit noch an Bord sein. Ich werde nun die
             Anwesenden im Zug nacheinander verhören. Wer wichtige Informationen
             für mich hat, möge sich bitte melden, er wird dann zuerst
             interviewt. Die übrigen Reisenden und Angestellten bitte ich, in
@@ -717,15 +723,16 @@ const Adventure = () => {
             dass Herr Claes sein Zigarettenetui vermisse; es sei wertvoll
             gewesen, da aus echtem Gold.<br></br>In Abteil 2: die Tür war nicht
             abgeschlossen, aber ins Schloss gezogen; beim Öffnen kam uns ein
-            Hund entgegen, der eine Juwelenkette im Mund hatte; der Steward
+            Hund entgegen, der eine Juwelenkette im Maul hatte; der Steward
             bestätigte, dass sowohl die Kette, als auch der Hund der Ermordeten
             gehörten; als der Hund zum Zeitpunkt der Entdeckung des Mordes durch
             die Serviererin aus dem Zimmer rannte (vorher konnte er nicht weg,
-            weil auch hier die Tür geschlossen war), hatte er keine Kette im
-            Maul. Ansonsten war das Abteil 2 leer. <br></br> In Abteil 1 keine
-            Auffälligkeiten. <br></br> Im Gepäckabteil: in einer Ecke liegen
-            Brotkrumen; ferner stehen dort Koffer von Emma Weber, Hatice Kaya
-            und Luc Claes, als auch eine Anglerausrüstung von Milica Ilic".
+            weil auch hier die Tür geschlossen war), hatte er nach
+            Zeugenaussagen keine Kette im Maul gehabt. Ansonsten war das Abteil
+            2 leer. <br></br> In Abteil 1 keine Auffälligkeiten. <br></br> Im
+            Gepäckabteil: in einer Ecke liegen Brotkrumen; ferner stehen dort
+            Koffer von Emma Weber, Hatice Kaya und Luc Claes, als auch eine
+            Anglerausrüstung von Milica Ilic".
             <br></br> <br></br>
             „Ismail, hole bitte den Steward herein, wir beginnen mit ihm“, wies
             der Kommissar Ismail an.{" "}
@@ -734,13 +741,13 @@ const Adventure = () => {
           <h2 className="adventure-text">
             „Hallo Steward, ich fange bei Ihnen an. Nicht, weil sie mir am
             Tatverdächtigsten aussehen, sondern weil ich denke, dass Sie den
-            besten Überblick haben, was hier an Bord los war.“ „Sagen Sie mal,
+            besten Überblick haben, was hier an Bord los war. Sagen Sie mal,
             warum war das Abteil 2 leer und unverschlossen?“, begann der
             Kommissar das Gespräch. „Nun, dort logierte Clara Fischer. Sie fuhr
             von Wien bis Sofia. Dort hab ich sie verabschiedet.“ „Sie war also
             von Bord, bevor der Mord erfolgte?“, der Kommissar hakte nochmals
             nach. „Ja, das war sie. Sie hatte nur einen kleinen Koffer bei sich
-            und den wollte sie unbedingt selbst tragen, daran erinner ich mich
+            und den wollte sie unbedingt selbst tragen, daran erinnere ich mich
             noch. Ich hatte ihr angeboten, ihn für sie an den Bahnsteig zu
             stellen, weil das zu meinem Beruf dazu gehört, aber davon wollte sie
             nichts wissen. Es war auch nur ein kleiner Koffer. So groß wie ein
@@ -749,20 +756,20 @@ const Adventure = () => {
             an den Mahlzeiten teilnahm. Vermutlich konnte sie die
             Kleidungsvorschriften für den Speisewagen nicht einhalten.“{" "}
             <br></br> <br></br>
-            Der Kommissar unterbrach ihn: „und dann fährt diese Dame in einem
+            Der Kommissar unterbrach ihn, „und dann fährt diese Dame in einem
             solch teuren Zug? Woher hatte sie denn das Geld dafür?“ Der Steward
-            zögert, dann erwiderte er, „Das weiß ich nicht, aber ihr Ticket war
+            zögerte, dann erwiderte er, „Das weiß ich nicht, aber ihr Ticket war
             ordentlich bezahlt. Vielleicht sollten Sie da mal Herrn Moreau
             fragen, der scheint sich öfters mit ihr unterhalten zu haben. Ich
             habe ihn auch mehrfach vor dem Abteil von Frau Fischer gesehen. Herr
             Moreau ist auch ein Sonderling. Der ist doch glatt mit einem
             Papageien angereist. Und wie er sich aufgeregt hat, als ich den
-            Käfig in den Zug heben wollte. Nein, den durfte niemand anfassen als
-            er selbst. Der Käfig sei zu schwer, meinte er. Was bildet er sich
-            eigentlich ein? Wissen Sie, was für schwere Koffer ich täglich
-            schleppe? Zum Beispiel die vielen Koffer von der Frau Kaya oder die
-            von Frau Wegener, die hat sogar eine ganze Angelausrüstung
-            mitgebracht.“
+            Vogelkäfig in den Zug heben wollte. Nein, den durfte niemand
+            anfassen als er selbst. Der Käfig sei zu schwer, meinte er. Was
+            bildet er sich eigentlich ein? Wissen Sie, was für schwere Koffer
+            ich täglich schleppe? Zum Beispiel die vielen Koffer von der Frau
+            Kaya oder die von Frau Wegener, die hat sogar eine ganze
+            Angelausrüstung mitgebracht.“
             <br></br> <br></br>
             „Ach, die Angelausrüstung ist also von Frau Wegener?“, wunderte sich
             der Kommissar und wies seinen Kollegen an „Ismail, alles schön
@@ -778,48 +785,49 @@ const Adventure = () => {
             Kommissar das Gespräch an. „Eingestiegen bin ich mit meiner Frau in
             Paris“, stellte Louis klar. „Ja, mit ihrer Frau und einem
             Papageien!“, forderte der Kommissar ihn heraus. „Genau. Mit unserem
-            Ara.“, stimmte Louis dem Kommissar zu. „Und was ist so Besonders an
+            Ara“, stimmte Louis dem Kommissar zu. „Und was ist so Besonders an
             ihrem Vogel, dass niemand den Käfig anfassen durfte?“ „Es war halt
             ein sehr sensibles Tier. Ich wollte nicht, dass es gestresst wird,
             durch all die vielen Menschen.“ <br></br> <br></br>
             „Was passiert denn, wenn es gestresst wird?“ „Dann wird er laut und
             krächzt rum und ist ganz hibbelig.“ „Aber er merkt doch gar nicht,
             ob ein anderer den Käfig trägt, wenn das Tuch über dem Käfig liegt.
-            Wo ist das Problem?“, forderte der Kommissar Louis heraus. Louis
-            zögerte. „Und dann sagen Sie dem Steward noch, der Käfig sei zu
-            schwer?“, provozierte der Kommissar weiter. <br></br> <br></br>
+            Wo ist das Problem?“, folgerte der Kommissar. Louis zögerte. „Und
+            dann sagen Sie dem Steward noch, der Käfig sei zu schwer?“,
+            provozierte der Kommissar weiter. <br></br> <br></br>
             „Ist er doch auch“, rechtfertigte sich Louis. „Herr Moreau, ich habe
             den Käfig hochgehoben. Der wiegt nicht viel. Aber unten im Käfig ist
             ein Brett lose und wenn man das verschiebt, stößt man auf ein Fach
             und dort könnte etwas transportiert worden sein, was mehr wiegt, als
-            nur der lächerliche Käfig. Ist das korrekt, Herr Moreau?“. „Was soll
-            das heißen“, bäumte sich Louis auf. Dabei streckte er seinen rechten
-            Arm aus und zeigte auf den Kommissar. „Was wollen Sie mir eigentlich
-            unterstellen?“. <br></br> <br></br>
-            „Oh“, sagte der Kommissar und ließ seinen Blick über Louis gleiten.
-            „Sie haben viel in der Sonne gesessen, nicht wahr?“ Louis war nicht
-            mehr zu halten. „Wollen Sie sagen, ich hätte einen Sonnenstich, ich
-            würde nicht mehr ganz ticken?“ „Nein, keinesfalls“, setzte der
-            Kommissar in ruhigem Ton seinen Gedanken fort. „Ich meine nur, Sie
-            sind ganz schön gebräunt. Nur dort“, er wies auf eine Stelle auf
-            Louis Unterarm hin, „dort ist es mit der Bräune nicht so weit her.
-            So als ob Sie ein große Uhr getragen hätten.“ „Ja, die, die ist mir
-            verloren gegangen.“ „Und dann haben Sie sich eine neue zugelegt?“,
-            man wusste nicht, ob es wirklich eine Frage war, doch Louis fasste
-            sie so auf. „Der Mensch braucht doch eine Uhr. Da habe ich mir eine
-            neue besorgt.“ „Ja, schon, aber warum dann eine Damenuhr?“ Eine
-            kurze Pause trat ein, dann riss sich Louis wieder zusammen; „Wusste
-            ich nicht, dass es eine Damenuhr ist. Da haben die mich in Budapest
-            aber reingelegt, beim Juwelier.“ <br></br> <br></br>
+            der lächerliche Käfig allein. Ist das korrekt, Herr Moreau?“. „Was
+            soll das heißen“, bäumte sich Louis auf. Dabei streckte er seinen
+            rechten Arm aus und zeigte auf den Kommissar. „Was wollen Sie mir
+            eigentlich unterstellen?“. <br></br> <br></br>
+            „Oh“, sagte der Kommissar und ließ seinen Blick über Louis Arm
+            gleiten. „Sie haben viel in der Sonne gesessen, nicht wahr?“ Louis
+            war nicht mehr zu halten. „Wollen Sie sagen, ich hätte einen
+            Sonnenstich, ich würde nicht mehr ganz ticken?“ „Nein, keinesfalls“,
+            setzte der Kommissar in ruhigem Ton seinen Gedanken fort. „Ich meine
+            nur, Sie sind ganz schön gebräunt. Nur dort“, er wies auf eine
+            Stelle auf Louis Unterarm hin, „dort ist es mit der Bräune nicht so
+            weit her. So als ob Sie ein große Uhr getragen hätten.“ „Ja, die,
+            die ist mir abhanden gegangen.“ „Und dann haben Sie sich eine neue
+            zugelegt?“, man wusste nicht, ob es wirklich eine Frage war, doch
+            Louis fasste sie so auf. „Der Mensch braucht doch eine Uhr. Da habe
+            ich mir eine neue besorgt.“ „Ja, schon, aber warum dann eine
+            Damenuhr?“ Eine kurze Pause trat ein, dann riss sich Louis wieder
+            zusammen. „Wusste ich nicht, dass es eine Damenuhr ist. Da haben die
+            mich in Budapest aber reingelegt, beim Juwelier.“ <br></br>{" "}
+            <br></br>
             Er klang empört, doch das irritierte den Kommissar nicht. „Darf ich
-            die Uhr mal haben?“ Louis gab sie ihm. Der Kommissar begutachtete
-            die Uhr und fuhr dann fort: „Hinten sind die Initialien H.K.
-            eingraviert. Damit dürfte die Sache klar sein. Die Uhr stammt von
-            der Toten. Wann haben Sie sie ihr abgenommen?“ „Herr Kommissar, ich
-            habe mit dem Mord nichts zu tun, das müssen Sie mir glauben.“
-            „Glauben! Den Glauben an die Menschheit habe ich schon vor vielen
-            Jahren verloren“, stöhnte der Kommissar. „Ismail, bring ihn doch
-            wieder zurück in sein Abteil, da kann er dann ein Weilchen
+            die Uhr mal haben?“, fragte der Kommissar. Louis gab sie ihm. Der
+            Kommissar begutachtete die Uhr und fuhr dann fort: „Hinten sind die
+            Initialien H.K. eingraviert. Damit dürfte die Sache klar sein. Die
+            Uhr stammt von der Toten. Wann haben Sie sie ihr abgenommen?“ „Herr
+            Kommissar, ich habe mit dem Mord nichts zu tun, das müssen Sie mir
+            glauben.“ „Glauben! Den Glauben an die Menschheit habe ich schon vor
+            vielen Jahren verloren“, stöhnte der Kommissar. „Ismail, bring ihn
+            doch wieder zurück in sein Abteil, da kann er dann ein Weilchen
             nachdenken.“ „Aber ich war es doch nicht. Das ist alles die Schuld
             von dieser Deutschen.“ „Deutschen?“ „Ja, der Frau Fischer, diesem
             Flittchen.“ „Na, na, na, was sind denn das für Ausdrücke auf diesem
@@ -836,76 +844,74 @@ const Adventure = () => {
             „Wer hat sich in Belgrad aus dem Zug gestohlen?“, wollte der
             Kommissar wissen. „Na, die Frau Fischer.“ „Und woher wissen Sie
             das?“ „Ich war doch gleich, als wir den Bahnhof Belgrad verlassen
-            hatten bei ihr drüben im Abteil. Die Tür stand offen und das Abteil
+            hatten, bei ihr drüben im Abteil. Die Tür stand offen und das Abteil
             war leer. Sie war weg, sie muss somit ausgestiegen sein. Und seither
             ist sie auch nicht mehr aufgetaucht oder haben Sie sie im Zug
             gefunden?“ „Nun gut, lassen wir das. Was wollten Sie denn von der
             Frau Fischer?“ „Das habe ich Ihnen doch bereits gesagt. Sie sollte
             mir meine Uhr wiedergeben, die hat sie mir nämlich gestohlen.“ „Ah
-            ja, und deshalb stehlen Sie die Uhr von der Hatice Kaya?“ Louis
-            merkte, dass er sich nur in diesem Gespräch nur den Mund verbrennen
-            konnte und zog es daher vor, fortan zu schweigen. Der Kommissar lies
-            ihn deshalb in sein Abteil zurückbringen und gab Anweisung, nun Frau
+            ja, und deshalb stehlen Sie die Uhr von Hatice Kaya?“ Louis merkte,
+            dass er sich in diesem Gespräch nur noch den Mund verbrennen konnte
+            und zog es daher vor, fortan zu schweigen. Der Kommissar lies ihn
+            deshalb in sein Abteil zurückbringen und gab Anweisung, nun Frau
             Wegener vorzuladen.
           </h2>
           <div class="zig-zag zig-zag-color2">Die dritte Vernehmung</div>
           <h2 className="adventure-text">
-            „Frau Wegener, Sie sind als letzte an Bord gekommen, in Belgrad. Ist
+            „Frau Wegener, Sie sind als Letzte an Bord gekommen, in Belgrad. Ist
             das korrekt?“ „Ja, das ist richtig.“ „ Was ich mich frage..“, er
-            blickte auf Frau Wegener Hände, „wir haben Hochsommer und Sie tragen
-            den ganzen Tag Handschuhe. Warum machen Sie das?“ Frau Wegener zog
-            ihren linken Handschuh aus und deutete auf ihre Hand: „sehen Sie,
-            das ist gesunde, weiße Haut. Aber bei der heutigen
+            blickte auf Frau Wegeners Hände, „wir haben Hochsommer und Sie
+            tragen den ganzen Tag Handschuhe. Warum machen Sie das?“ Frau
+            Wegener zog ihren linken Handschuh aus und deutete auf ihre Hand:
+            „sehen Sie, das ist gesunde, weiße Haut. Aber bei der heutigen
             Sonneneinstrahlung altert die Haut überdurchschnittlich schnell und
-            es gibt Hautkrebs“, der Kommissare unterbrach sie. <br></br>{" "}
-            <br></br>
-            „Nun denken Sie nicht, Sie können mir hier einen Bären aufbinden. Im
-            Zug selbst scheint keine Sonne und selbst dort tragen Sie diese
-            Handschuhe. Wir haben einen solchen Handschuh auch bei Frau Kaya im
-            Abteil gefunden. Es ist ein linker Handschuh. Frau Wegener, sind Sie
-            Linkshänder?“ „Nein, ich bin von Geburt aus Rechtshänder“, stellte
-            sie ohne zu Zögern klar. „Ok, dann ziehen Sie doch mal ihren rechten
-            Handschuh aus“. Frau Wegener hielt inne. „Frau Wegener, ich kann das
-            auch polizeilich anweisen lassen.“ Frau Wegener ergriff mit ihrer
-            linken Hand die Fingerspitzen des rechten Handschuhs und begann
-            langsam diesen von der Hand abzuziehen. Darunter kam ein schwarzer
-            Klump mit Metallstreben zum Vorschein. Der Kommissar zeigte hierauf
-            und fragte: „Frau Wegener, was ist das?“ „Das ist eine Prothese. Ich
-            habe meine halbe rechte Hand bei einer Explosion verloren.“ „Wann
-            war das?“ „Im ersten Weltkrieg.“, räumte Frau Wegener ein. „Genau,
-            als Sie noch Milica Ilic hießen.“, stellte der Kommissar klar.
-            „Woher wissen Sie das?“, Frau Wegener war ganz erstaunt. <br></br>{" "}
-            <br></br>
+            es gibt Hautkrebs“. <br></br> <br></br>
+            Der Kommissare unterbrach sie, „nun denken Sie nicht, Sie können mir
+            hier einen Bären aufbinden. Im Zug scheint keine Sonne und selbst
+            dort tragen Sie diese Handschuhe. Wir haben einen solchen Handschuh
+            auch bei Frau Kaya im Abteil gefunden. Es ist ein linker Handschuh.
+            Frau Wegener, sind Sie Linkshänder?“ „Nein, ich bin von Geburt aus
+            Rechtshänder“, stellte sie ohne zu Zögern klar. „Ok, dann ziehen Sie
+            doch mal ihren rechten Handschuh aus“. Frau Wegener hielt inne.
+            „Frau Wegener, ich kann das auch polizeilich anweisen lassen.“ Frau
+            Wegener ergriff mit ihrer linken Hand die Fingerspitzen des rechten
+            Handschuhs und begann langsam diesen von der Hand abzuziehen.
+            Darunter kam ein schwarzer Klump mit Metallstreben zum Vorschein.
+            Der Kommissar zeigte darauf und fragte: „Frau Wegener, was ist das?“
+            „Das ist eine Prothese. Ich habe meine halbe rechte Hand bei einer
+            Explosion verloren.“ „Wann war das?“, wollte der Kommissar wissen.
+            „Im ersten Weltkrieg.“, räumte Frau Wegener ein. „Genau, als Sie
+            noch Milica Ilic hießen.“, stellte der Kommissar klar. „Woher wissen
+            Sie das?“, Frau Wegener war ganz erstaunt. <br></br> <br></br>
             „Wir haben Nachforschungen angestellt. Als der Steward uns
             mitteilte, dass die Anglerausrüstung im Gepäckraum ihnen gehört,
             haben wir recherchiert, was es mit dem Namen Milica Ilic auf sich
-            hat, der auf der Anglerausrüstung aufgedruckt ist.“ „Und Sie sind
+            hat, der auf der Anglerausrüstung aufgedruckt ist.“ „Und sind Sie
             fündig geworden?“, die Tränen schossen Frau Wegener in die Augen.
             „Ja, das sind wir.“, antwortete der Kommissar ruhig. „Wir wissen,
             dass Sie im ersten Weltkrieg im Osmanischen Reich gelebt haben und
             dort in den Widerstand gegangen sind. Sie haben gegen die
             Zusammenarbeit des Osmanischen Reiches mit den Deutschen gekämpft
             und dabei wurden Sie in eine Falle gelockt. Sie hätten ihr Leben
-            ganz verlieren können, aber die Explosion zerschmetterte nur Ihre
-            Hand, ist das richtig?“, der Kommissar schaute ihr liebevoll in die
-            Augen. Frau Wegener rannten die Tränen nur so die Wangen hinunter.
-            All die schrecklichen Erlebnisse kamen wieder in ihr hoch. Ismail
-            reichte ihr ein Taschentuch. Es dauerte eine Weile, bis sie sich
-            beruht hatte. Dann atmete sie tief durch und berichtete: <br></br>{" "}
+            verlieren können, aber die Explosion zerschmetterte nur Ihre Hand,
+            ist das richtig?“, der Kommissar schaute ihr liebevoll in die Augen.
+            Frau Wegener rannten die Tränen nur so die Wangen hinunter. All die
+            schrecklichen Erlebnisse kamen wieder in ihr hoch. Ismail reichte
+            ihr ein Taschentuch. Es dauerte eine Weile, bis sie sich beruht
+            hatte. Dann atmete sie tief durch und berichtete: <br></br>{" "}
             <br></br>
             „Nach der Explosion wusste ich, dass es zu gefährlich für mich war.
             Ich verlies das Osmanische Reich und versteckte mich bei Verwandten
             in Serbien. Es war nicht so schwer, einen neuen Pass mit einem neuen
             Namen zu erhalten. Einer meiner Onkel erledigte das für mich. Die
             Angelausrüstung besitze ich schon, seit ich ein Teenager war. Ich
-            habe es nicht bemerkt, dass das Schild mich eines Tages verraten
-            würde. So wie ich im Widerstand verraten worden bin.“ Der Kommissar
-            legte seine Hand auf ihre linke Hand. „Und, wollen wir mal
-            Kräftemessen machen? Wie stark ist denn ihre linke Hand?“ <br></br>{" "}
-            <br></br>
+            habe nicht geahnt, dass das Schild mich eines Tages verraten würde.
+            So wie ich im Widerstand verraten worden bin.“ Der Kommissar legte
+            seine Hand auf ihre linke Hand. „Und, wollen wir mal Kräftemessen
+            machen? Wie stark ist denn ihre linke Hand?“ <br></br> <br></br>
             Frau Wegener schwieg. Dann erhob sie ihre Stimme wieder, aber sehr
             zittrig: „Ja, ich habe Hatice Kaya in ihrem Abteil besucht. Gleich
-            nach dem Frühstück. Ich habe sie sofort wiedererkannt. Sie war es,
+            nach dem Frühstück. Ich hatte sie sofort wiedererkannt. Sie war es,
             die mich damals verraten hatte. Ich musste mich mit ihr aussprechen.
             Für mich war es noch immer unverständlich, wie eine meiner besten
             Freundinnen mich so verraten konnte. Sie wollte mich töten.
@@ -922,19 +928,19 @@ const Adventure = () => {
             „Sie sollte sich mir erklären. Ich wollte es endlich verstehen.
             Damit meine Alpträume nachts aufhören. Damit ich wieder in Ruhe
             leben kann. Aber sie hat sich gar nicht auf das Gespräch mit mir
-            eingelassen. Sie sagt, sie hätte mich nicht verraten. Ich würde
-            alles nur erfinden. Aber so ist es nicht….“ „Ok, ok, Sie müssen
-            nichts mehr darüber erzählen. Es gibt ja Archivakten dazu. Wir
-            wissen ziemlich genau, was damals passiert ist, Können Sie sich noch
-            erinnern, um welche Uhrzeit Sie das Abteil von Frau Kaya verlassen
-            haben?“ „Ich denke, es war viertel vor zehn. Ich weiß es nicht mehr
-            so genau. Es hat mir alles so zugesetzt. Ich bin in mein Abteil und
-            habe nur noch die Wand angestarrt und geheult.“, Frau Wegener wirkte
-            nun blass und erschöpft. „Atmen Sie erst einmal tief durch. Ich
-            schicke Ihnen gleich einen Arzt in ihr Abteil. Der kann ihnen auch
-            eine Beruhigungsspritze geben, wenn Sie das wünschen. Frau Wegener,
-            ich wünsche Ihnen alles Gute. Sie können den Zug heute verlassen.“,
-            er reichte ihr die Hand zum Abschied.
+            eingelassen. Sie sagte, sie hätte mich nicht verraten. Ich würde
+            alles nur erfinden. Aber das stimmt so nicht….“ „Ok, ok, Sie müssen
+            nichts mehr darüber erzählen. Es gibt diverse Archivakten dazu. Wir
+            wissen ziemlich genau, was damals im Krieg passiert ist. Können Sie
+            sich noch erinnern, um welche Uhrzeit Sie das Abteil von Frau Kaya
+            verlassen haben?“ „Ich denke, es war viertel vor zehn. Ich weiß es
+            nicht mehr so genau. Es hat mir alles so zugesetzt. Ich bin in mein
+            Abteil und habe nur noch die Wand angestarrt und geheult.“, Frau
+            Wegener wirkte nun blass und erschöpft. „Atmen Sie erst einmal tief
+            durch. Ich schicke Ihnen gleich einen Arzt in ihr Abteil. Der kann
+            ihnen eine Beruhigungsspritze geben, wenn Sie das wünschen. Frau
+            Wegener, ich wünsche Ihnen alles Gute. Sie können den Zug heute
+            verlassen.“, er reichte ihr zum Abschied die Hand.
             <br></br> <br></br>
             „Ismail, bitte erstelle Frau Wegener einen Passierschein, damit sie
             vom Zug kommt und dann hole bitte Herrn Yilmaz herein.“
@@ -952,12 +958,12 @@ const Adventure = () => {
             gegen meine religiösen Glaubenssätze. Erst als ich am Flügel meine
             Kompositionen aus Jugendjahren zu Gehör brachte, änderte sich meine
             Einstellung zu ihr. Sie war sehr auffallend talentiert, was den
-            Gesang anging und als musikalisches Paar, wenn man das so betitel
+            Gesang anging und als musikalisches Paar, wenn man das so bezeichnen
             kann, harmonierten wir gut miteinander.
             <br></br> <br></br>
-            Irgendwann war ich dann zu erschöpft, und wolle nur noch ins Bett.
+            Irgendwann war ich dann zu erschöpft, und wollte nur noch ins Bett.
             Frau Kaya begleitete mich zu meinem Abteil, welches direkt neben dem
-            Ihren lag. Dort drängte sie mich, sie wolle sich weiter mit mir
+            ihren lag. Dort drängte sie mich, sie wollte sich weiter mit mir
             unterhalten. Ich gab ihr die Noten und sagte, wir können uns gerne
             morgen dazu austauschen, aber heute brauche ich meinen Schlaf. Dann
             ging ich in mein Abteil. Dort zog ich mich um und wusch mich. Dann
@@ -974,10 +980,11 @@ const Adventure = () => {
             Sie gut nach!“, forderte der Kommissar ihn auf. Herr Yilmaz starrte
             vor sich auf den Boden, dann bewegten sich seine Augen nach links
             und der Kommissar wusste, dass der Politiker nun seine Vergangenheit
-            analysierte. Noch einmal hielt er inne, schüttelte letztendlich aber
-            den Kopf. „Nein, Herr Kommissar, ich kenne die Frau nicht. Ich kann
-            mich nicht erinnern sie jemals vor dieser Reise gesehen zu haben.
-            Warum glauben Sie, sollte sie mir bekannt sein?“ <br></br> <br></br>
+            durchforstete. Noch einmal hielt er inne, schüttelte letztendlich
+            aber den Kopf. „Nein, Herr Kommissar, ich kenne die Frau nicht. Ich
+            kann mich nicht erinnern sie jemals vor dieser Reise gesehen zu
+            haben. Warum glauben Sie, sollte sie mir bekannt sein?“ <br></br>{" "}
+            <br></br>
             „Nun, Herr Yilmaz, wie Sie wissen, haben wir das Abteil von Frau
             Kaya genau untersucht. Wir haben massig Aufzeichnungen gefunden, die
             Frau Kaya über Sie getätigt hat. Vermutlich beobachtete sie Sie
@@ -1000,84 +1007,84 @@ const Adventure = () => {
             lies Jelena herbeirufen.
             <br></br> <br></br>
             „Frau Petrovic, Sie haben in Wien den Orient Express bestiegen“,
-            begann der Kommissar langsam den Einstieg ins Gespräch. „Wieso sind
-            Sie eigentlich noch im Zug?“, konfrontierte er sie jedoch im
-            nächsten Moment. <br></br> <br></br>
+            begann der Kommissar langsam das Gespräch. „Wieso sind Sie
+            eigentlich noch im Zug?“, konfrontierte er sie jedoch im nächsten
+            Moment. <br></br> <br></br>
             „Wie bitte, ich verstehe Sie nicht“, erwiderte Jelena. „Doch, Sie
             verstehen mich sehr gut. Sie besitzen nur eine Fahrkarte bis
             Belgrad, sind aber noch immer im Zug.“, behauptete der Kommissar.
             „Das stimmt so nicht“, wandte Jelena ein. „Ich bin in Belgrad
             ausgestiegen und habe mir das Zugticket nach Konstantinopel
-            nachgelöst.“, stellte sie klar. „Ach ja, darf ich mal ihre Fahrkarte
+            nachgelöst“, stellte sie klar. „Ach ja, darf ich mal ihre Fahrkarte
             sehen?“, forderte sie der Kommissar auf. „Die ist in meinem Abteil,
             die müsste ich erst noch holen.“ „Das können Sie später noch tun“,
             meinte der Kommissar. „Jetzt wollen wir uns erst einmal etwas
             unterhalten“, der Kommissar nippte kurz an seiner Kaffeetasse. Dann
-            setzte er seine Befragung fort: “In welchem Verhältnis standen sie
+            setzte er seine Befragung fort. “In welchem Verhältnis standen sie
             zur Toten?“ „Im welchem Verhältnis? In gar keinem Verhältnis. Ich
-            kann sie doch gar nicht, bevor sie den Zug bestiegen hatte.“ „Und,
-            wie lernten Sie sie kennen?“, unterbrach sie der Kommissar. „Na nur
+            kannte sie doch gar nicht, bevor sie den Zug bestiegen hatte.“ „Und,
+            wie lernten Sie sie kennen?“, unterbrach der Kommissar sie. „Na nur
             beim Abendessen und danach beim Karaokespiel. Ich habe aber nicht
             gesungen. Gesungen hat nur sie, ach und ja ein wenig die Alice, die
-            hatte aber kein Talent zum Singen. Und das war schon alles.“,
+            hatte aber kein Talent zum Singen. Und das war schon alles“,
             berichtete Jelena.
             <br></br> <br></br>
             „Das war schon alles, also kein Mordmotiv?“, wollte der Kommissar
-            wissen. „Mordmotiv? Ich könnte nie jemanden ermorden.“, schoss es
-            aus Jelena heraus. „Lassen wir das. In Ihrem Abteil haben wir ein
+            wissen. „Mordmotiv? Ich könnte nie jemanden ermorden“, schoss es aus
+            Jelena heraus. „Lassen wir das. In Ihrem Abteil haben wir ein
             Briefkuvert gefunden. Es stammt von ihrem Mann und wurde erst vor
             wenigen Tagen abgeschickt. Dürfen wir erfahren, was darin stand?“
-            „Das war sehr privat. Darüber möchte ich nicht sprechen.“, Jelena
+            „Das war sehr privat. Darüber möchte ich nicht sprechen“, Jelena
             lief leicht rot an. „Andere Reisende an Bord haben auch Briefe
             erhalten. Bei Frau Kaya lag ein Liebesbrief von Herrn Claes. Wussten
             Sie, dass Herr Claes in Frau Kaya verliebt war?“ „Das wussten doch
             die meisten der Passagiere.“ „Wie soll ich das verstehen? Hat er ihr
-            öffentlich den Hof gemacht?“ „Nein, dafür hatten sie ja kaum Zeit.
-            Frau Kaya war ja erst seit Zagreb an Bord. Aber als Herr Moreau,
-            Herr Claes und ich nach dem Karaoke noch etwas getrunken haben, da
-            wurde Herr Claes sehr gesprächig, was das Thema Heiraten anging. Er
-            fand mich auch reizend, aber den Liebesbrief hat er ihr geschrieben,
-            …weil er dachte, ich sei schon verheiratet.“ „Und, sind sie das
-            nicht?“ <br></br> <br></br>
-            Jelena musste den Kopf gen Deck drehen, um nicht zu Weinen
+            öffentlich den Hof gemacht?“, wollte der Kommissar wissen. „Nein,
+            dafür hatten sie ja kaum Zeit. Frau Kaya war erst seit Zagreb an
+            Bord. Aber als Herr Moreau, Herr Claes und ich nach dem Karaoke noch
+            etwas getrunken haben, da wurde Herr Claes sehr gesprächig, was das
+            Thema Heiraten anging. Er fand mich auch reizend, aber den
+            Liebesbrief hat er ihr geschrieben, …weil er dachte, ich sei schon
+            verheiratet.“ „Und, sind sie das nicht?“ <br></br> <br></br>
+            Jelena musste den Kopf gen Decke drehen, um nicht zu Weinen
             anzufangen. „Mein Mann will sich von mir scheiden lassen.“ „Und das
             stand in dem Brief?“ Jelena merkte, dass sie dem Kommissar in die
             Falle gegangen war. Sie schluckte. „Ja, das stand in dem Brief. Er
             wollte keine Frau, die ihren Beruf mehr liebte als ihn, schrieb er
-            mit. Er wäre mir völlig egal und ich solle mich zum Teufel scheren.
-            Sein Vater hätte ihm klar gemacht, dass der Mann das Sagen im
-            Haushalt hat und eine Frau, die nicht gehorche, gezüchtigt gehöre.
-            Aber das sei nicht sein Stil. Er werde die Ehe einfach annullieren
-            lassen, wegen Kinderlosigkeit. Ich bräuchte nicht mehr nach Hause
-            kommen. Es sei aus. Er werde in einem halben Jahr die Tochter des
-            Oberfeldwebels heiraten. Alles sei schon arrangiert.“, Jelena
-            schniefte. <br></br> <br></br>
+            mir. Er wäre mir völlig egal, behauptete er, und dass ich mich zum
+            Teufel scheren solle. Sein Vater hätte ihm klar gemacht, dass der
+            Mann das Sagen im Haushalt habe und eine Frau, die nicht gehorche,
+            gezüchtigt gehöre. Aber das sei nicht sein Stil. Er werde die Ehe
+            einfach annullieren lassen, wegen Kinderlosigkeit. Ich bräuchte
+            nicht mehr nach Hause zu kommen. Es sei aus. Er werde in einem
+            halben Jahr die Tochter des Oberfeldwebels heiraten. Alles sei schon
+            arrangiert“, Jelena schniefte. <br></br> <br></br>
             „Dann haben Sie sich also auch Chancen bei Herrn Claes eingeräumt?“
             „Was heißt hier eingeräumt? Er hatte doch am Abend selbst zugegeben,
             dass er mich reizender fand, als die Frau Kaya. Herr Kommissar, ein
-            35 jähriger junger Mann, der will doch lieber eine 31 jährige Frau,
-            als eine 50 jähre Witwe. Obendrein interessierte sie sich doch auch
-            nicht für Herrn Claes. Sie war doch hinter Herrn Yilmaz her, das war
-            nicht zu übersehen. Da ist es kein Wunder, dass sie den Liebesbrief
-            von Herrn Claes ungelesen auf ihrem Tisch hat liegen lassen.“ „Woher
-            wissen Sie dann, was in dem Brief gestanden hat?“, wollte der
-            Kommissar wissen. <br></br> <br></br>
-            Jelena schwieg. „Frau Petrovic, sie wissen, was in dem Brief
-            gestanden hat, weil Sie ihn geöffnet haben und zwar im Abteil von
-            Frau Kaya. Sie sind einfach in das Abteil von Frau Kaya
-            eingedrungen, als diese nicht da war.“ Jelena schwieg unverändert.
-            „Frau Petrovic, Sie haben die Wahl. Sie können uns nun helfen und
-            uns unterstützen oder sie kommen in Untersuchungshaft und wir lassen
-            das ganze Abteil von Frau Kaya samt Brief auf ihre Fingerabdrücke
-            hin untersuchen Was ist Ihnen lieber?“, der Kommissar wurde im Ton
-            schärfer. „Nun gut, ich war in Frau Kayas Abteil.“, räumte Jelena
-            ein.“Als Frau Kaya am Morgen zum Frühstück aufbrach, bin ich in ihr
-            Abteil eingedrungen. Dort habe ich den Brief von Luc gefunden. Ich
-            habe ihn geöffnet und gelesen.“ „Und dann kam Frau Kaya zurück?“,
-            stellte der Kommissar fest. „Nein, ich war schon wieder im Gang, als
-            Frau Kaya zurückkam. Die hat nichts bemerkt.“ <br></br> <br></br>
-            „Und wie ging die Geschichte dann weiter“, forderte der Kommissar
-            sie auf. „Ich bin gleich zu Luc gegangen und hab ihm alles erzählt,
+            35-jähriger junger Mann, der will doch lieber eine 31-jährige Frau,
+            als eine 50-jähre Witwe! Obendrein interessierte sich die Kaya doch
+            gar nicht für Herrn Claes. Sie war doch hinter Herrn Yilmaz her, das
+            war nicht zu übersehen. Da ist es kein Wunder, dass sie den
+            Liebesbrief von Herrn Claes ungelesen auf ihrem Tisch hat liegen
+            lassen.“ „Woher wissen Sie dann, was in dem Brief gestanden hat?“,
+            wollte der Kommissar wissen. <br></br> <br></br>
+            Jelena schwieg. „Frau Petrovic, sie wissen es, weil Sie ihn geöffnet
+            haben und zwar im Abteil von Frau Kaya. Sie sind einfach in das
+            Abteil von Frau Kaya eingedrungen, als diese nicht da war.“ Jelena
+            schwieg unverändert. „Frau Petrovic, Sie haben die Wahl. Sie können
+            uns nun helfen und uns unterstützen oder Sie kommen in
+            Untersuchungshaft und wir lassen das Frau Kayas Abteil samt Brief
+            auf Ihre Fingerabdrücke hin untersuchen Was ist Ihnen lieber?“, der
+            Kommissar wurde im Ton schärfer. „Nun gut, ich war in Frau Kayas
+            Abteil“, räumte Jelena ein. “Als Frau Kaya am Morgen zum Frühstück
+            aufbrach, bin ich in ihr Abteil eingedrungen. Dort habe ich den
+            Brief von Luc gefunden. Ich habe ihn geöffnet und gelesen.“ „Und
+            dann kam Frau Kaya zurück?“, stellte der Kommissar fest. „Nein, ich
+            war schon wieder im Gang, als Frau Kaya zurückkam. Die hat nichts
+            bemerkt.“ <br></br> <br></br>
+            „Und wie ging die Geschichte dann weiter“, der Kommissar lies nicht
+            locker. „Ich bin gleich zu Luc gegangen und habe ihm alles erzählt,
             dass mein Mann mich frei gibt, dass ich ihn liebe und dass wir eine
             Familie gründen können und dass die Kaya sich nicht für ihn
             interessiere und hinter dem Yilmaz her sei. Dass es dafür unzählige
@@ -1093,20 +1100,20 @@ const Adventure = () => {
             habe. Er meinte jedoch, eine Ehe würde nur dann gelingen, wenn beide
             Ehepartner vom gleichen Stande wären, also finanziell ebenbürtig.
             Wenn ich nichts in die Ehe einbringen würde, dann wäre das schon von
-            Anfang an ein schlechtes Ohmen“. <br></br> <br></br>
-            „Und dann sind sie rüber und haben sich die Juwelenkisten
+            Anfang an ein schlechtes Omen“. <br></br> <br></br>
+            „Und dann sind Sie rüber und haben sich die Juwelenkisten
             geschnappt?“, unterbrach der Kommissar sie. „Ich bin wieder rüber in
-            Kayas Abteil. Ich war wie verblendet. Aber die Juwelenkiste war
+            Kayas Abteil. Ich war wie fremdgesteuert. Aber die Juwelenkiste war
             nicht mehr da und die Frau Kaya… die Frau Kaya lag tot auf der Erde,
             erwürgt. Ich habe gedacht, wenn der Schmuck eh schon gestohlen ist,
-            kommt es auf das Kette auch nicht mehr an und ich habe der Toten die
-            Kette vom Hals genommen und bin damit aus dem Zimmer gerannt. Ich
-            war gerade auf Höhe meines Abteils, als die Serviererin das Abteil
-            von Frau Kaya betragt.“ „Und dann ist ihnen die Sache zu heiß
-            geworden und Sie haben die Kette im Abteil 2 versteckt. Sie wählten
-            das ehemalige Abteil von Frau Fischer, weil es das einzige war,
-            dessen Tür unverschlossen war. Selbst ihr eigenes Abteil hätten Sie
-            erst aufschließen müssen und soviel Zeit hatten Sie in jenem Moment
+            kommt es auf die Kette auch nicht mehr an und ich habe der Toten die
+            Kette vom Hals gezogen und bin damit aus dem Zimmer gerannt. Ich war
+            gerade auf Höhe meines Abteils, als die Serviererin das Abteil von
+            Frau Kaya betrat.“ „Und dann ist ihnen die Sache zu heiß geworden
+            und Sie haben die Kette im Abteil 2 versteckt. Sie wählten das
+            ehemalige Abteil von Frau Fischer, weil es das einzige war, dessen
+            Tür unverschlossen war. Selbst ihr eigenes Abteil hätten Sie erst
+            aufschließen müssen und soviel Zeit hatten Sie in jenem Moment
             nicht. Als dann der Schrei der Serviererin durch den Flur hallte,
             mischten Sie sich einfach unter die Reisenden, die sehen wollten,
             was geschehen war und Niemandem fiel auf, dass Sie gar nicht aus
@@ -1123,8 +1130,8 @@ const Adventure = () => {
             Kommissar. „Herr Kommissar, soll ich jetzt Herrn Claes zum Verhör
             rufen?“, fragte er. „Wozu das?“, der Kommissar schien erstaunt.
             „Nun, weil er die Frau Kaya erwürgt hat“, stellte Ismail fest. „Wie
-            kommst du darauf? Herr Claes hat Frau Kaya nicht erwürgt. Herr Claes
-            ist ein klassischer Heiratsschwindler, aber vor grausamen
+            kommst du darauf? Herr Claes hat Frau Kaya doch nicht erwürgt. Herr
+            Claes ist ein klassischer Heiratsschwindler, aber vor grausamen
             Gewalttaten scheut auch er zurück. Ich habe einen Kollegen in
             Belgien kontaktiert und dort ist Luc Claes schon mehrfach auffällig
             geworden. Er musste sogar einmal eine Haftstrafe absitzen.
@@ -1158,80 +1165,79 @@ const Adventure = () => {
             Bodenplatte lag all der Schmuck aus Frau Kayas Juwelenkiste. „So
             Herr Moreau, lassen Sie mich raten. Sie haben die Damenuhr, die Sie
             derzeit an ihrem Handgelenk tragen, aus der Juwelenkiste genommen
-            und den übrigen Schmuck hier im Vogelkäfig versteckt. So wie sie es
+            und den übrigen Schmuck hier im Vogelkäfig versteckt. So wie Sie es
             auch vorher mit der Schmugglerbeute gemacht hatten. Clara Fischer
             hat nämlich nicht nur ihre Uhr, sondern auch die Schmugglerbeute aus
             dem Vogelkäfig gestohlen. Dafür musste sie den Vogel frei lassen.
             Und als Sie das bemerkten, bekamen Sie es mit der Angst zu tun, denn
-            die Ware war nicht Ihr Eigen, sondern, sie waren nur deren
+            die Ware war nicht Ihr Eigentum, sondern, sie waren nur deren
             Überbringer. Sollten Sie am Zielort die Schmugglerware nicht an den
-            vorbestimmten Empfänger aushändigen, würde dieser vermuten, dass Sie
-            die Ware unterschlagen hätten und dann wären Sie in einem Dilemma.
-            Sie brauchten somit dringend Ersatz.
+            vorbestimmten Empfänger aushändigen können, würde dieser vermuten,
+            dass Sie die Ware unterschlagen hätten und dann wären Sie in einem
+            Dilemma. Sie brauchten somit dringend Ersatz.
             <br></br> <br></br>
-            Übrigens, Frau Fischer ist nicht, wie Sie es glaubten, in Belgrad
-            von Bord gegangen, wie Sie vermuten. Sie blieb bis Sofia an Bord und
-            wurde dann vom Steward verabschiedet. Nachdem Frau Fischer ihre
-            Schmugglerware erbeutet hatte, war es ihr aber in ihrem Abteil wohl
-            zu riskant geworden, so dass sie sich im Gepäckabteil versteckte.
-            Dem Steward fiel sie dort nur nicht auf, weil sie sich in ihrem
-            eigenen Koffer, der die ganze Zeit mehr oder weniger leer war,
-            verbarg. Ein Koffer mehr oder weniger ist im Gepäckraum nichts
-            ungewöhnlich, insbesondere, wenn sich das Gepäck dort schon stapelt.
-            Vermutlich ist sie nur dann in den Koffer gekrochen, wenn der
-            Gepäckwagen geöffnet wurde. Darauf weisen die Brotkrümel hin, die
-            ebenfalls von ihr stammen müssen. Dieses Thema ist somit geklärt.
-            Was uns noch fehlt ist, die Antwort auf die Frage, wie der Schmuck
-            überhaupt in Ihr kam. Möchten Sie uns diese Geschichte erzählen,
-            Frau Moreau?“
+            Übrigens, Frau Fischer ist nicht, wie Sie vermuteten, in Belgrad von
+            Bord gegangen. Sie blieb bis Sofia an Bord und wurde dann vom
+            Steward verabschiedet. Nachdem Frau Fischer ihre Schmugglerware
+            erbeutet hatte, war es ihr aber in ihrem Abteil zu riskant geworden,
+            so dass sie sich im Gepäckabteil des Zuges versteckte. Dem Steward
+            fiel sie dort nur nicht auf, weil sie sich in ihrem eigenen Koffer,
+            der die ganze Zeit mehr oder weniger leer war, verbarg. Ein Koffer
+            mehr oder weniger ist im Gepäckraum nicht ungewöhnlich,
+            insbesondere, wenn sich das Gepäck dort schon stapelt. Vermutlich
+            ist sie nur dann in den Koffer gekrochen, wenn der Gepäckwagen
+            geöffnet wurde. Darauf weisen die Brotkrümel, die wir in jenem
+            Abteil gefunden hatten hin, und die ebenfalls von ihr stammen
+            müssen. Dieses Thema ist somit geklärt. Was uns noch fehlt, ist die
+            Antwort auf die Frage, wie der Schmuck überhaupt in Ihr Abteil kam.
+            Möchten Sie uns diese Geschichte erzählen, Frau Moreau?“
             <br></br> <br></br>
             Alle Blicke richteten sich nun auf Alice. „Irgendwann mussten Sie es
             ja herausfinden. Was soll ich da beschönigen, und wenn Sie
             Fingerabdrücke nehmen, werden Sie auch von mir Spuren in Frau Kayas
-            Zimmer finden.“, Alice holte tieft Luft. Dann fuhr sie fort: „Ich
-            kam heute Morgen nach dem Essen zurück in unser Abteil. Louis war
-            inzwischen wach und ich unterhielt mich über Frau Wegener mit ihm.
-            Er stand dann endlich auf, weil er auf die Toilette am Gang musste.
-            Wir haben ja keine eigene Toilette in unserem Abteil. Als er weg
-            war, hörte ich, wie sich ein Mann und eine Frau im Nebenzimmer
-            stritten, ich meine das Abteil von Herr Claes. Ich wusste sofort,
-            dass es Luc und Jelena waren, die sich da stritten. Jelena erzählte
-            von der Juwelenkiste bei Frau Kaya im Zimmer. Weil ich von Louis
-            erfahren hatte, dass unsere Schmugglerware gestohlen worden war und
-            wir uns daher in einer kritischen Lage befanden, erkannte ich im
-            Gehörten eine riesige Chance. Ich bin sofort zu Frau Kays Abteil.
-            Vorsichtshalber habe ich angeklopft, doch als sich niemand meldete,
-            öffnete ich mit meiner Haarnadel die Tür. Ich hatte die Juwelenkiste
-            schon in meiner Hand, als Frau Kaya ins Abteil zurückkehrte. Es gab
-            keine Alternative. Ich musste sie erwürgen, sonst hätte sie mich
-            angezeigt. Die Juwelenkisten habe ich unter den Arm geklemmt und
-            rasch das Abteil wieder verlassen. An die wertvolle Kette, die Frau
-            Kaya um ihren Hals trug, dachte ich in diesem Moment nicht. Mir
-            fehlte zudem auch die Zeit. Ich musste so schnell wie möglich weg.
-            Ich bin sofort in unser Abteil zurückgekehrt, die Tür hatte ich nur
-            angelehnt gelassen, so dass alles fix ging. Alles schien wieder
-            perfekt zu sein. Louis konnte unser Glück nicht fassen, als er die
-            Kiste sah.“ <br></br> <br></br>
+            Zimmer finden.“ Alice holte tieft Luft. Dann fuhr sie fort: „Ich kam
+            heute Morgen nach dem Essen zurück in unser Abteil. Louis war
+            inzwischen wach und ich unterhielt mich mit ihm über Frau Wegener.
+            Er stand auf, weil er auf die Toilette am Gang musste. Wir haben ja
+            keine eigene Toilette in unserem Abteil. Als er fort war, hörte ich,
+            wie sich ein Mann und eine Frau im Nachbarabteil stritten, ich meine
+            das Abteil von Herr Claes. Ich wusste sofort, dass es Luc und Jelena
+            waren, die sich da stritten. Jelena erzählte von der Juwelenkiste
+            bei Frau Kaya. Weil ich von Louis erfahren hatte, dass unsere
+            Schmugglerware gestohlen worden war und wir uns daher in einer
+            kritischen Lage befanden, erkannte ich nun eine Riesenchance. Ich
+            bin sofort zu Frau Kays Abteil gelaufen. Vorsichtshalber habe ich
+            angeklopft, doch als sich niemand meldete, öffnete ich mit meiner
+            Haarnadel die Tür. Ich hatte die Juwelenkiste schon in meiner Hand,
+            als Frau Kaya ins Abteil zurückkehrte. Es gab keine Alternative. Ich
+            musste sie erwürgen, sonst hätte sie mich der Polizei übergeben. Die
+            Juwelenkiste habe ich unter den Arm geklemmt und rasch das Abteil
+            wieder verlassen. An die wertvolle Kette, die Frau Kaya um ihren
+            Hals trug, dachte ich in diesem Moment nicht mehr. Mir fehlte auch
+            die Zeit. Eile war geboten und ich musste so schnell wie möglich
+            weg. Ich bin sofort in unser Abteil zurückgekehrt, die Tür hatte ich
+            nur angelehnt gelassen, so dass alles fix ging. Für uns schine alles
+            wieder in Ordnung zu sein. Louis konnte unser Glück nicht fassen,
+            als er die Kiste sah.“ <br></br> <br></br>
             „Warum haben wir den Schmuck nicht bei der ersten Durchsuchung der
             Abteile gefunden“, wollte Ismail wissen, der aufmerksam zugehört
-            hatte. „Weil die Herrschaften Schmuggelprofis sind“, erwiderte der
-            Kommissar. „Die kennen tausende Verstecke. Manchmal haben sie
+            hatte. „Weil die Herrschaften Schmuggelerprofis sind“, erwiderte der
+            Kommissar. „Die kennen tausende Verstecke. Manchmal benutzen sie
             Hohlräume in Schuhabsätzen, manchmal wird der Schmuck unterm Dutt
             oder in einem doppelten BH transportiert“, der Kommissar beugte sich
             zu Herrn Moreau vor. „Wollen Sie uns Ihr Geheimversteck verraten?“{" "}
             <br></br> <br></br>
             „Nein Herr Kommissar“, Louis hatte seinen Stolz offenbar
-            zurückgewonnen, als er erklärte, „Geheimrezepte bleiben
-            Geheimrezepte. Im Übrigen wird sich unsere Strafe auch nicht
-            deswegen ändern, nur weil wir Ihnen eines unser Geheimrezepte
-            verraten, stimmt`s oder habe ich Recht, Herr Kommissar?“ „So ist
-            es.“, stimmte der Kommissar ihm zu. Und wies er die Polizisten an,
-            die Moreaus abzuführen.
+            zurückgewonnen, als er erklärte, „Geheimnisse bleiben Geheimnisse.
+            Im Übrigen wird sich unsere Strafe auch nicht deswegen ändern, nur
+            weil wir Ihnen eines unser Geheimrezepte verraten, stimmt`s oder
+            habe ich Recht, Herr Kommissar?“ „So ist es.“, stimmte der Kommissar
+            ihm zu. Dann wies er die Polizisten an, die Moreaus abzuführen.
           </h2>
           <div class="zig-zag zig-zag-color3">
             <a className="adventure-top" href="#adventure-top">
               This adventure story was invented and written by me <br></br>
-              Reinhild's myOrientTrip - copyright &copy; 2025 all rights
+              Reinhild's myOrientTrip <br></br> copyright &copy; 2025 all rights
               reserved <br></br>
               Klick hier, um zum Seitenanfang zu gelangen
             </a>
@@ -1240,12 +1246,16 @@ const Adventure = () => {
           <div className="adventure-English" id="adventure-english">
             <div class="zig-zag zig-zag-color1">Kick-off in Paris</div>
             <h2 className="adventure-text">
-              It was a warm, golden late afternoon in the summer of 1920 when
-              the Moreau couple boarded the legendary Orient Express in Paris.
-              Alice Moreau pressed a big kiss on her husband's cheek. "Our
-              adventure together can finally begin," she whispered softly into
-              his ear. Louis Moreau winked at her amusedly, but then turned to
-              the steward who had approached them.
+              Don't worry, this isn't Agatha Christie's{" "}
+              <em>"Murder on the Orient Express"</em>, which wasn't written
+              until 1934! This travel experience takes place in 1920 and is my
+              own creation.<br></br>
+              <br></br> It was a warm, golden late afternoon in the summer of
+              1920 when the Moreau couple boarded the legendary Orient Express
+              in Paris. Alice Moreau pressed a big kiss on her husband's cheek.
+              "Our adventure together can finally begin," she whispered softly
+              into his ear. Louis Moreau winked at her amusedly, but then turned
+              to the steward who had approached them.
               <br></br>
               <br></br>
               "Welcome aboard! Madame Moreau, Monsieur Moreau, step into the
@@ -1444,7 +1454,7 @@ const Adventure = () => {
             </h2>
             <div class="zig-zag zig-zag-color1">Budapest Central Station</div>
             <h2 className="adventure-text">
-              Alice raved. "Cherie, that was delicious! I'm already feeling much
+              Alice raved. "Chéri, that was delicious! I'm already feeling much
               better. Shall we get off here in Budapest for a moment? Please,
               the fresh air will surely do me good, and we still have an hour
               until the train leaves."
@@ -2359,8 +2369,8 @@ const Adventure = () => {
               <a className="adventure-top" href="#adventure-top">
                 {" "}
                 This adventure story was invented and written by me <br></br>
-                Reinhild's myOrientTrip - copyright &copy; 2025 all rights
-                reserved <br></br>Click here to get to top.
+                Reinhild's myOrientTrip <br></br> copyright &copy; 2025 all
+                rights reserved <br></br>Click here to get to top.
               </a>
             </div>
           </div>

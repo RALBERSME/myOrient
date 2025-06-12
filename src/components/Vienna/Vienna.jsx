@@ -21,7 +21,31 @@ const Vienna = () => {
   const transition = { type: "spring", duration: 3 };
   return (
     <div className="Vienna">
+      <div className="vienna-button">
+        <a
+          href="#"
+          onClick={() => {
+            navigate("/");
+          }}
+        >
+          Back <br></br>to Main Page{" "}
+        </a>
+        <a
+          href="#"
+          onClick={() => {
+            navigate("/budapest");
+          }}
+        >
+          Continue <br></br>to Budapest{" "}
+        </a>
+
+        <br></br>
+      </div>
+      <br></br>
+
       <div className="vienna-text">
+        <h2>{viennaData[selected].text}</h2>
+        <br></br>
         <img
           className="vienna-img"
           key={selected}
@@ -55,30 +79,8 @@ const Vienna = () => {
             alt=""
           />
         </div>
-        <br></br>
-        <h2>{viennaData[selected].text}</h2>
-        <br></br>
-        <h2>{viennaData[selected].englisch}</h2>
 
-        <div className="vienna-button">
-          <a
-            href="#"
-            onClick={() => {
-              navigate("/myOrient/budapest");
-            }}
-          >
-            Continue <br></br>to Budapest{" "}
-          </a>
-          <a
-            href="#"
-            onClick={() => {
-              navigate("/myOrient");
-            }}
-          >
-            Back <br></br>to Main Page{" "}
-          </a>
-          <br></br>
-        </div>
+        <h2>{viennaData[selected].englisch}</h2>
       </div>
     </div>
   );

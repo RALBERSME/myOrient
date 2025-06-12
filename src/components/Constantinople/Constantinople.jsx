@@ -132,7 +132,7 @@ const Constantinople = () => {
           <a
             href="#"
             onClick={() => {
-              navigate("/myOrient/adventure");
+              navigate("/adventure");
             }}
           >
             Start<br></br>the Adventure{" "}
@@ -140,7 +140,7 @@ const Constantinople = () => {
           <a
             href="#"
             onClick={() => {
-              navigate("/myOrient");
+              navigate("/");
             }}
           >
             Back <br></br>to Main Page{" "}

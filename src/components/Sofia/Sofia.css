@@ -143,7 +143,7 @@
   .sofia-container .box:hover {
     width: 300px;
     height: 300px;
-    transform: scale(1.35) translateX(40px);
+    transform: scale(1.15) translateX(5px);
   }
 
   .sofia-container .box:hover .content h2 {

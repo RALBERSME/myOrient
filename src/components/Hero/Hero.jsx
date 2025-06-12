@@ -64,7 +64,7 @@ const Hero = () => {
               </span>
             </div>
             <div>
-              <span>maximum speed</span>
+              <span>max. speed</span>
               <span>
                 <CountUp
                   start={0}
@@ -81,16 +81,16 @@ const Hero = () => {
           <div className="hero-buttons">
             <button
               onClick={() => {
-                navigate("/myOrient/adventure");
+                navigate("/adventure");
               }}
               className="btn"
             >
-              Buy Ticket <i className="fa-solid fa-cart-shopping"></i>
+              HOP ON (free)<i className="fa-solid fa-cart-shopping"></i>
             </button>
             <button
               className="btn"
               onClick={() => {
-                navigate("/myOrient/moreInfo");
+                navigate("/moreInfo");
               }}
             >
               More Information <i className="fa-solid fa-folder-open"></i>
